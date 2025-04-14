@@ -1,0 +1,37 @@
+[
+    {
+        "id": "radio1",
+        "name": "radioGroup",
+        "label": "Option 1"
+    },
+    {
+        "id": "radio2",
+        "name": "radioGroup",
+        "label": "Option 2"
+    },
+    {
+        "id": "radio3",
+        "name": "radioGroup",
+        "label": "Option 3"
+    },
+    {
+        "id": "radio4",
+        "name": "radioGroup",
+        "label": "Option 4"
+    },
+    {
+        "id": "radio5",
+        "name": "radioGroup",
+        "label": "Option 5"
+    },
+    {
+        "id": "radio6",
+        "name": "radioGroup",
+        "label": "Option 6"
+    },
+    {
+        "id": "radio7",
+        "name": "radioGroup",
+        "label": "Option 7"
+    }
+]

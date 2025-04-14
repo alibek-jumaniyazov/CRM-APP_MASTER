@@ -1,0 +1,47 @@
+.CopiedModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.CopiedModalContant {
+    width: 320px;
+    height: 146.18px;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:11.13px;
+}
+
+.CopiedModalCloseIcon {
+    width: 59.34px;
+    height: 59.34px;
+    border-radius:50%;
+    background-color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CopiedModalCloseIcon span{
+    color: #fff;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CopiedModalTitle p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #334D6E;
+}

@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Medium';
+  src: url('./Assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SamiBold';
+  src: url('./Assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('./Assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('./Assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  outline: none;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+.App {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #f1f4f8;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main::-webkit-scrollbar {
+  display: none !important;
+}
+
+.main::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+.main::-webkit-scrollbar-thumb {
+  display: none !important;
+}
+
+.Chart {
+  width: 20vw;
+  height: 300px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Paymentstext {
+  position: absolute;
+  top: 40%;
+  font-size: .9vw;
+}
+
+.HomeApp {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.HomeApp::-webkit-scrollbar {
+  display: none !important;
+}
+
+.HomeApp::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+.HomeApp::-webkit-scrollbar-thumb {
+  display: none !important;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.dropdownMenu {
+  position: absolute;
+  z-index: 1000;
+  width: 200px;
+  height: 1000px;
+  background-color: white;
+}
+
+.css-9l3uo3 {
+  /* font-size: ; */
+}
+.ant-select-selector{
+  border: 1px solid #C2CFE0!important;
+  transition: all 0.3s ease;
+  outline: #005EEB!important;
+}
+.ant-select-selector:hover{
+  border-color: #005EEB!important;
+  transition: all 0.3s ease;
+}

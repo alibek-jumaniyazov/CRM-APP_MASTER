@@ -1,0 +1,303 @@
+.Schedule {
+    width: 1143px;
+    min-height: 596px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    transition: .3s ease all;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.Schedule:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.ContentTable {
+    width: 100%;
+    height: 596px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.ContentTable::-webkit-scrollbar {
+    width: 15.5px;
+    border-radius: 38px;
+    border:1px solid #E4EAF1;
+    background: #E4EAF1;
+}
+
+.ContentTable::-webkit-scrollbar-track {
+    background: #E4EAF1;
+    border-radius: 38px;
+}
+
+.ContentTable::-webkit-scrollbar-thumb {
+    width: 7.26px;
+    background-color: #B0C2DA;
+    border-radius: 20px;
+    border: 3px solid #F6FAFF;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 0px 0;
+    font-size: 14px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #fff;
+    color: #192A3E;
+    font-family: Medium;
+    text-align: left;
+}
+
+tbody tr {
+    padding: 10px 0;
+}
+
+.content-table th,
+.content-table td {
+    padding: 15px;
+    width: auto;
+    gap: 5px;
+    align-items: center;
+}
+
+.content-table thead th {
+    text-align: center;
+}
+
+.content-table tbody {
+    gap: 10px;  
+}
+
+.content-table tbody tr {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #fff;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.table {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    text-align: start;
+    border-top: 1px solid #EFF0F1;
+    border-bottom: 1px solid #EFF0F1;
+    margin: 5px 0;
+    gap: 10px;
+    transition:all 0.3s ease ;
+    cursor: pointer;
+    
+}
+
+.table:hover {
+    background-color: #E4F4FD;
+    border-color: var(--Colors-White, #FFFFFF);
+    border-radius: 6px;
+}
+.tableX:hover {
+    background-color: #E4F4FD;
+    border-color: var(--Colors-White, #FFFFFF);
+    transform: translateX(4px);
+}
+.TableShare {
+    display: none;
+    width: 0px;
+    margin-left: -25px;
+}
+
+.table:hover p {
+    color: #192A3E;
+}
+
+.table:hover .TableShare {
+    display: flex;
+    width: auto;
+}
+
+.table:hover .TableRed p{
+    background-color: #F7685B !important;
+    color: #fff !important;
+}
+
+.headerTable {
+    border-bottom: none;
+    border-top: none;
+    padding: 22px 0;
+    margin: 0;
+}
+
+.headerTable:hover {
+    background: #fff;
+    border: none;
+}
+
+.table:hover .TableBlue {
+    color: #ffff;
+}
+
+.table:hover .ebatsavrotgreen p {
+    background-color: #2ED47A !important;
+    color: #FFF;
+}
+
+.table:hover .tabletextRoom p {
+    color: #FFF;
+}
+
+.Schedule .headerTable p {
+    background-color: #fff;
+    color: #192A3E;
+    font-family: Medium;
+    text-align: left;
+}
+
+.nomblya {
+    width: 15px;
+}
+
+.lessonblya {
+    width: 128px;
+}
+
+.nameblya {
+    width: 120px;
+}
+
+.teacherblya {
+    width: 131px;
+}
+
+.Subjectblya {
+    width: 242px;
+}
+
+.lessonblyaType {
+    width: 100px;
+}
+
+.RoomBlya {
+    width: 90px;
+}
+
+.RoomBlyaa {
+    width: 64px;
+    margin-right: 26px;
+}
+
+.StudentBlya {
+    width: 115px;
+}
+
+.table p {
+    text-align: start;
+    color: #707683;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-family: Regular;
+}
+
+.table .tableTextMax {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.table .tableTextMin {
+    max-width: 3.125vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabletextRoom p {
+    width: 100%;
+    padding: 2px;
+    background-color: #33A9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tableTextHour p {
+    width: 120px;
+    padding: 2px;
+    background-color: #FEEEED;
+    color: #F7685B;
+    border-radius: 0.26vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5px;
+    font-size: 14px;
+}
+
+.tableTextUser {
+    display: flex;
+    align-items: center;
+    gap: 3.5px;
+}
+
+.tableTextGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.26vw;
+}
+
+.tableTextUsers {
+    display: flex;
+    align-items: center;
+    gap: 0.26vw;
+}
+
+.ebatsavrot {
+    width: 8px;
+    height: 100%;
+    border-radius: 2px 0px 0px 2px;
+    background-color: rgba(0, 94, 235, 1);
+}
+
+.ebatsavrotTime p {
+    background-color: #005EEB;
+    color: white;
+}
+
+.ebatsavrotgreen p {
+    background-color: rgba(232, 250, 240, 1);
+    color: rgba(46, 212, 122, 1);
+}
+
+.pust {
+    width: 8px;
+    height: 100%;
+}
+.linktoHomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

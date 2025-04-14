@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: .1vw solid #EBEFF2;
+    border-left: .1vw solid #EBEFF2;
+    font-family: "Poppins", sans-serif;
+}
+
+.BranchSelect {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2vw;
+}
+
+.BranchButtonDrop button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #334D6E;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: SamiBold;
+    gap: .3vw;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    letter-spacing: 1%;
+    line-height: 21.6px;
+}
+
+.BranchSelectOption {
+    width: 8.5vw;
+    height: 4.5vw;
+    position: absolute;
+    top: 2vw;
+    left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.178);
+    border-radius: .5vw;
+}
+
+.DropDownNavButton {
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    color: #90A0B7;
+    width: 100%;
+    height: 1.5vw;
+    padding: .6vw;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: .7vw;
+}
+
+.DropDownNavButton:hover {
+    background-color: #ECF7FF;
+}
+
+.DropDownNavButton .checkButton {
+    display: none;
+}
+
+.DropDownNavButton.activ {
+    color: #005EEB;
+    font-size: .6vw;
+    background-color: #ECF7FF;
+}
+
+.DropDownNavButton.activ .checkButton {
+    display: flex;
+    font-size: 1vw;
+}
+
+.NavButtonBox {
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    gap: 10px;
+}
+
+.NavButtonBox input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.GoPlus {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease;
+    background: transparent;
+}
+
+.GoPlus svg rect {
+    fill: #005EEB;
+    transition: all .5s ease;
+}
+
+.GoPlus:hover svg rect {
+    fill: #257AFD;
+    transition: all .5s ease;
+}
+
+.GoPlus:active {
+    scale: 80%;
+    transition: all .3s ease;
+}
+
+.HiLang,
+.Piclock,
+.BsArrows {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    outline: none;
+    color: #C2CFE0;
+    cursor: pointer;
+    transition: all .5s ease;
+    stroke: #C2CFE0;
+}
+
+.Notification {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    outline: none;
+    color: #C2CFE0;
+    cursor: pointer;
+    transition: all .5s ease;
+    stroke: #C2CFE0;
+}
+
+.HiLang:hover,
+.Piclock:hover,
+.BsArrows:hover,
+.Notification:hover {
+    color: #005EEB;
+    stroke: #005EEB;
+}
+
+.IoSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 40px;
+    border-radius: 10px;
+    background: none;
+    font-size: 12px;
+    color: #90A0B7;
+    font-family: "Regular";
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+    background: #F3F4F7;
+    transform: translateX(-100px);
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.IoSearch:hover {
+    transition: all 0.3s ease;
+    background-color: #EBEFF5;
+}
+
+.IoSearch:hover input::placeholder {
+    color: #707683;
+    transition: all 0.3s ease;
+
+}
+
+.IoSearch input {
+    width: 100px;
+    transition: all 0.3s ease;
+    font-family: "Regular";
+}
+
+.IoSearch input::placeholder {
+    color: #90A0B7;
+    transition: all 0.3s ease;
+
+}
+
+.IoSearch:hover input {
+    width: 180px;
+    transition: all 0.3s ease;
+}
+
+.IoSearch svg path {
+    fill: #90A0B7;
+}
+
+.IoSearch:hover svg path {
+    fill: #707683;
+    transition: all 0.3s ease;
+}
+
+.activeInput {
+    background-color: #E4F4FD;
+}
+
+.activeInput input {
+    width: 180px;
+    transition: all 0.3s ease;
+}
+
+.activeInput input::placeholder {
+    color: #005EEB !important;
+}
+
+.activeInput svg path {
+    fill: #005EEB !important;
+    transition: all 0.3s ease;
+}
+
+.IoSearchZ {
+    z-index: 998 !important;
+}
+
+.blablabla {
+    width: 176px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 20px;
+}
+
+.IoSearch svg {
+    font-size: 15px;
+}
+
+.Navprofil {
+    width: auto;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+    gap: 5px;
+    border-left: 2px solid #EBEFF2;
+}
+
+.Navprofil img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.profilInfo_lastname {
+    padding-top: 3px;
+    color: #334D6E;
+    padding: 6px 0 0 0;
+    margin: 0;
+    font-family: SamiBold;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 1%;
+}
+
+.profilInfo_frstname {
+    font-family: Medium;
+    color: #90A0B7;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+}
+
+
+.notficationDrop {
+    position: absolute;
+    width: 390px;
+    height: 550px;
+    background-color: white;
+    z-index: 1000 !important;
+    top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+}
+
+
+.notficationDrop .notficationDrop_title {
+    color: #334D6E;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.notficationDrop_Messege {
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow: auto;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.notficationDrop_Messege::-webkit-scrollbar {
+    width: 16px;
+}
+
+.notficationDrop_Messege::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    border: 1px solid #E4EAF1
+}
+
+.notficationDrop_Messege::-webkit-scrollbar-thumb {
+    background: #B0C2DA;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+.notficationDrop_Messege::-webkit-scrollbar-thumb:hover {
+    background: #B0C2DA;
+}
+
+.notficationDrop_Messege_box {
+    width: 330px;
+    height: auto;
+    border: 1px solid #EBEFF5;
+    padding: 10px 0px;
+    padding-left: 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: 0.3s ease;
+}
+
+.notficationDrop_Messege_box:hover {
+    box-shadow: 0px 0px 15px 0px #00000033;
+}
+
+.notficationDrop_Messege_box::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background-color: #90A0B7;
+    top: 10px;
+    left: 10px;
+}
+
+.notficationDrop_Messege_box:hover::after {
+    background-color: #005EEB;
+    transition: 1s ease;
+}
+
+.notficationDrop_Messege_box_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "SamiBold";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #334D6E;
+
+}
+
+.notficationDrop_Messege_box_top h3 {
+    color: #334D6E;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "SamiBold";
+}
+
+.notficationDrop_Messege_box:hover .notficationDrop_Messege_box_top button {
+    color: #33A9FF;
+    transition: 0.3s ease;
+    font-family: "Regular";
+
+}
+
+.notficationDrop_Messege_box_top button {
+    font-family: "Regular";
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.notficationDrop_Messege_box_min p {
+    font-family: "Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.notficationDrop_Messege_box_time {
+    font-family: "Regular";
+    color: #90A0B7;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.Navprofil {
+    cursor: pointer;
+}
+
+.blablabla:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.245);
+    border-radius: 5px;
+}
+
+.profilOverlyModal {
+    background-color: transparent !important;
+}
+
+.Navprofil_drop {
+    position: absolute;
+    width: 176px;
+    height: 158px;
+    top: 70px;
+    background-color: white;
+    z-index: 99;
+    box-shadow: 0px 0px 7.7px 0px #00000066;
+    border-radius: 6px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1px;
+    background-color: #E4EAF1;
+    z-index: 1000 !important;
+}
+
+.Navprofil_drop a {
+    width: 100%;
+    flex-grow: 1;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 12px;
+    color: #707683;
+    background-color: white;
+    border: none;
+    font-family: Regular;
+    text-decoration: none;
+}
+
+.Navprofil_drop a svg {
+    font-size: 16px;
+}
+
+.Navprofil_drop a:hover {
+    color: #005EEB;
+    background: #ECF7FF;
+    cursor: pointer;
+}
+
+.Navprofil_drop a:nth-child(1) {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.Navprofil_drop a:nth-child(5) {
+    color: #F7685B;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.Navprofil_drop a:nth-child(5):hover {
+    background: #FEEEED;
+}
+
+.Navprofil_drop button {
+    width: 100%;
+    flex-grow: 1;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 12px;
+    color: #707683;
+    background-color: white;
+    border: none;
+    font-family: Regular;
+    text-decoration: none;
+}
+
+.Navprofil_drop button svg {
+    font-size: 16px;
+}
+
+.Navprofil_drop button:hover {
+    color: #005EEB;
+    background: #ECF7FF;
+    cursor: pointer;
+}
+
+.Navprofil_drop button:nth-child(1) {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.Navprofil_drop button:nth-child(5) {
+    color: #F7685B;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.Navprofil_drop button:nth-child(5):hover {
+    background: #FEEEED;
+}
+
+.none {
+    display: none;
+}
+
+.ModalSearch {
+    width: 600px;
+    height: 450px;
+    box-shadow: 0px 8px 19px -1px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ModalSearch {
+    position: absolute;
+    top: 31%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px 10px 15px 10px;
+    z-index: 1000;
+}
+
+.ModalSearch-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.ModalSearch-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    border: 1px solid #B0C2DA;
+}
+
+.ModalSearch-container::-webkit-scrollbar-thumb {
+    background: #B0C2DA;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+.ModalSearch-container::-webkit-scrollbar-thumb:hover {
+    background: #B0C2DA;
+}
+
+.ModalSearch-overlay input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-top: 13px;
+    padding-bottom: 15px;
+
+}
+
+.ModalSearch-container {
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+
+}
+
+.boxSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(235, 239, 242, 1);
+    top: 1px solid rgba(235, 239, 242, 1);
+}
+
+.aghhhh {
+    display: flex;
+    font-size: 13px;
+    color: rgba(51, 77, 110, 1);
+    font-family: "Noto Sans", sans-serif;
+    gap: 10px;
+    width: 100%;
+}
+
+.inuptSearcText {
+    width: 30%;
+}
+
+.AOAO {
+    display: flex;
+    gap: 13px;
+}
+
+.aaaaa {
+    color: rgba(194, 207, 224, 1);
+    font-size: 20px;
+}
+
+.SearchInpuBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(235, 239, 242, 1);
+}
+
+.Nothink {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 247, 255, 1);
+    gap: 28px;
+}
+
+.NothinkText p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    color: rgba(194, 207, 224, 1);
+}
+
+.ReactModal__Overlay--after-open {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxSearchLink {
+    text-decoration: none;
+}
+
+.boxSearch {
+    width: 100%;
+    z-index: 9999999999 !important;
+    transition: all 0.2s ease;
+}
+
+.boxSearch:hover {
+    transition: all 0.2s ease;
+    background-color: #E0EDFF !important;
+}
+

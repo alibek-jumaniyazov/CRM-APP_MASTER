@@ -1,0 +1,142 @@
+/* ArchiveQuestGroup */
+
+.ArchiveQuestGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 327px;
+  height: 185px;
+  padding: 13px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 34.9px 8px #00000038;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.ArchiveQuestClose {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ArchiveQuestTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transform: translateY(-5px);
+}
+.ArchiveQuestTexts p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+.ArchiveQuestTexts span {
+  width: 290px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+.GroupArchiveBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.GroupArchiveBtns button {
+  width: 128px;
+  height: 32px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.GroupArchiveButtonOne {
+  border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+.GroupArchiveBtns button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+.GroupArchiveButtonTwo {
+  background: var(--Colors-Red-Red, #f7685b);
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 6px 0px #0000001a;
+}
+
+/* ArchiveSucces */
+
+.ArchiveSucces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  height: 162.75px;
+  padding: 25px 12px 15px 12px;
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  box-shadow: 0px 0px 25.89px 5.93px #00000038;
+}
+
+.ArchiveSuccesTexts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.ArchiveSuccesTexts p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+.ArchiveSuccesTexts span{
+  width: 290px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}

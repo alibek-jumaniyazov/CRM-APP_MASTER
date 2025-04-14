@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.LoginContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-image: url(../../Assets/loginBac.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.login-container {
+  width: 580px;
+  height: 650px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo {
+  width: 267px;
+  height: 69px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #334D6E;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-group1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 48px;
+  gap: 12px;
+  border-radius: 10px;
+  opacity: 0px;
+  border: 1px solid #334D6E;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 16px;
+  color: #C2CFE0;
+  opacity: 1;
+
+}
+
+.input-group1 input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group1 input::placeholder {
+  color: #334D6E;
+}
+
+.input-group1 i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.btn-sign-in {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  display: flex;
+  color: #C2CFE0;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 1%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sign-in {
+  width: 192px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #005EEB;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1%;
+  font-weight: 500;
+  line-height: 16.2px;
+  text-align: center;
+  margin-top: 27px;
+}
+
+form {
+  width: 324px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 19px;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Login p {
+  font-size: 16px;
+  color: #334D6E;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.Password {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Password div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #334D6E;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.Password div a {
+  color: #90A0B7;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+}

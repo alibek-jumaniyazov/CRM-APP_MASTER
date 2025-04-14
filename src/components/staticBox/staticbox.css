@@ -1,0 +1,71 @@
+
+
+.StaticBox {
+    height: auto;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.StaticBox a {
+    text-decoration: none;
+}
+
+.StaticBox_container {
+    width: 271px;
+    height: 108px; 
+    box-shadow: 0px 0px 15px -10px rgba(34, 60, 80, 0.43);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 28.5px;
+    background-color: #fff;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.StaticBox_container:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+
+}
+
+.imgIcon button {
+    width: 68px;
+    height: 68px;
+    font-size: 3vw;
+    outline: none;
+    background-color: #33a9ff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextPodschet {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextPodschet p {
+    font-size: 14px;
+    color: #334D6E;
+    font-weight: bold;
+    font-family: Medium;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+}
+
+.TextPodschet .Number {
+    font-size: 25px; 
+    color: #334D6E;
+    line-height: 25px;
+    font-family: SamiBold;
+    letter-spacing: 1%;
+}
+
+.imgIcon {}

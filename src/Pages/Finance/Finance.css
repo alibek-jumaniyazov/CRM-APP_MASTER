@@ -1,0 +1,510 @@
+.FinancePageOne {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.FinanceTable {
+  width: 100%;
+}
+
+.FinanceCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FinanceWalletMonthCards {
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.FinanceCirculationCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: 474px;
+}
+
+.FinancePercentagePriceCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.FinancePercentagePriceCardsRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.AddSalaryModalOneSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100% !important;
+  padding: 0px 40px;
+  gap: 10px;
+}
+
+.AddSalaryModalOneSelect .ant-select {
+  width: 100% !important;
+}
+
+.AddSalaryModalOneSelect .ant-select-selector {
+  width: 100% !important;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #C2CFE0;
+  color: #707683;
+  outline: none;
+  padding: 10px 20px
+}
+
+
+.AddSalaryModalOneSelect label {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334D6E;
+}
+
+.FinanceModalSerach {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.FinanceModalSerachInfo {
+  display: flex;
+  background-color: #F3F4F7;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.FinanceModalSerachInfo input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.FinanceModalSerachInfo input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #90A0B7;
+}
+
+.FinanceModalSerachInfo svg {
+  font-size: 15px;
+  color: #90A0B7;
+  margin-left: 50px;
+}
+
+.search_data {
+  z-index: 999;
+}
+
+.incomeModalDivs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 13px 15px;
+  width: 550px;
+  height: 430px;
+  overflow-y: scroll;
+}
+
+.radiusDiv {
+  border-radius: 5px;
+}
+
+.NewCustomerModalButtonsToggles {
+  width: 100%;
+  padding: 0px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.NewCustomerModalButtonsToggle {
+  width: 209px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 0px 28px 0px 10px;
+  border: 1px solid #DFE0E4;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.NewCustomerModalButtonsToggle:hover {
+  border: 1px solid #005EEB;
+  transition: all 0.3s ease;
+}
+
+.NewCustomerModalButtonsToggleTitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.NewCustomerModalButtonsToggleTitles p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192A3E;
+}
+
+.NewCustomerModalButtonsToggleTitles span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192A3E;
+}
+
+.NewCustomerModalButtonsToggleIcon svg {
+  stroke: #33A9FF;
+}
+
+.NewCustomerModalButtonsToggle:hover .NewCustomerModalButtonsToggleIcon svg {
+  stroke: #005EEB;
+  transition: all 0.3s ease;
+}
+
+.NewCustomerModalButtonsToggleActive {
+  width: 209px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 0px 28px 0px 10px;
+  border: 1px solid #DFE0E4;
+  background-color: #005EEB;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.NewCustomerModalButtonsToggleActive .NewCustomerModalButtonsToggleTitles p {
+  color: white !important;
+}
+
+.NewCustomerModalButtonsToggleActive .NewCustomerModalButtonsToggleTitles span {
+  color: white !important;
+}
+
+.NewCustomerModalButtonsToggleActive .NewCustomerModalButtonsToggleIcon svg {
+  stroke: white !important;
+}
+
+.FinanceModalSerachTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 498px;
+  height: 276px;
+  padding: 0px 0px 14px 0px;
+  gap: 6px;
+  border-radius: 8px;
+  border: 1px solid #EBEFF5;
+  scale: 88%;
+}
+
+.FinanceModalSerachTableHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+}
+
+.FinanceModalSerachTable p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #707683;
+}
+
+.FinanceModalSerachTableLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 208px;
+  overflow-y: scroll;
+  gap: 5px;
+  padding: 4px 10px;
+}
+
+.FinanceModalSerachTableList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FinanceMltipleLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 494px;
+  height: 405px;
+  padding: 4px 6px;
+  gap: 15px;
+  border-radius: 8px;
+  border: 1px solid #EBEFF5;
+  box-shadow: 0px -1px 5.8px 0px #0000001A inset;
+  overflow-y: scroll;
+}
+
+.FinanceMltipleList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 12px;
+  border-radius: 6px;
+  border: 1px solid #EBEFF5;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.FinanceMltipleListTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.FinanceMltipleListTexts span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #707683;
+}
+
+.FinanceMltipleListTexts p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192A3E;
+}
+
+.FinanceMltipleListTextsName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.FinanceMltipleListActions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.FinanceMltipleListActionCreator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: -16.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.FinanceMltipleListActionsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.FinanceMltipleListActionCreator button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  border: 1.2px solid #C2CFE0;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #C2CFE0;
+  transition: all 0.3s ease;
+
+}
+
+.FinanceMltipleList:hover {
+  border-color: #C2CFE0;
+  transition: all 0.3s ease;
+}
+
+.FinanceMltipleList:hover .FinanceMltipleListActionCreator {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.FinanceMltipleListActionCreator:hover {
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 7.4px 0px #0000001F;
+  background: #FFFFFF;
+  transition: all 0.3s ease;
+
+}
+
+.FinanceMltipleListActionCreator:hover button {
+  border-color: #334D6E;
+  color: #334D6E;
+  transition: all 0.3s ease;
+
+}
+
+.FinanceMltipleListInputDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 154px;
+  height: 45px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid #C2CFE0;
+  gap: 5px;
+}
+
+.FinanceMltipleListInputDiv input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+
+.FinanceMltipleListInputDiv svg {
+  stroke: #90A0B7;
+}
+
+.FinanceMltipleListActions .ant-select .ant-select-selector {
+  width: 137px;
+  height: 45px !important;
+  border-radius: 10px !important;
+}
+
+.FinanceMltipleTextsZaybal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0px;
+  scale: 95%;
+}
+
+.FinanceMltipleTextsBeetwens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.FinanceMltipleTextsBeetwensChildren {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.FinanceMltipleTextsBeetwensChildren div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.FinanceMltipleTextsZaybal b {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #334D6E;
+}
+
+.FinanceMltipleTextsZaybal p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #334D6E;
+}
+
+.FinanceMltipleTextsZaybal span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #707683!important;
+}

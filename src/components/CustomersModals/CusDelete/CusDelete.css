@@ -1,0 +1,19 @@
+.ArchiveRed {
+    cursor: pointer;
+    border: none !important;
+    transition: .3s ease all;
+}
+
+.ArchiveRed:hover {
+    background-color: #FF7F74 !important;
+}
+
+.RemuveCardModalButtons button:nth-child(1) {
+    cursor: pointer !important;
+    transition: .3s ease all;
+}
+
+.RemuveCardModalButtons button:nth-child(1):hover {
+    border: 1px solid #334D6E;
+    color: #334D6E;
+}

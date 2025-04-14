@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 317px;
+    height: 185px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 15px 10px;
+    z-index: 1000;
+}
+
+
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.modal-content h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: SamiBold;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    text-align: center;
+}
+
+.modal-content p {
+    width: 301px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    text-align: center;
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal-buttons button {
+    width: 128px;
+    height: 32px;
+    Padding: 10px 20px 10px 20px;
+    outline: none;
+    border: 1px solid #90A0B7;
+    border-radius: 8px;
+    color: #90A0B7;
+    background: none;
+    font-family: Medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+}
+
+#del {
+    background-color: #F7685B;
+    color: #FFFFFF;
+    border: 1px solid #F7685B;
+}
+
+.closeX {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-size: 24px;
+    color: #C2CFE0;
+    cursor: pointer;
+}
+
+.modal-buttons button:hover {
+    width: 128px;
+    height: 32px;
+    Padding: 10px 20px 10px 20px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    color: #192A3E;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#del:hover {
+    background-color: #FF7F74;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #FF7F74;
+}
+
+.closeX:hover {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-size: 28px;
+    color: #192A3E;
+    cursor: pointer;
+}
+
+#Yes {
+    background-color: #005EEB;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #005EEB;
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

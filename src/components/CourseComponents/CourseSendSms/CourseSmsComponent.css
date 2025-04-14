@@ -1,0 +1,537 @@
+/* ArchiveQuestCourse */
+
+.ArchiveQuestCourse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 327px;
+  height: 185px;
+  padding: 13px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 34.9px 8px #00000038;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.ArchiveQuestClose {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ArchiveQuestTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transform: translateY(-5px);
+}
+
+.ArchiveQuestTexts p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+
+.ArchiveQuestTexts span {
+  width: 290px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+
+.CourseArchiveBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.CourseArchiveBtns button {
+  width: 128px;
+  height: 32px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.SendSmsQuestCourseButtonOne {
+  border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+
+.CourseArchiveBtns button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.SendSmsQuestCourseButtonTwo {
+  background: var(--Colors-Button-primary, #005eeb);
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 6px 0px #0000001a;
+}
+
+/* ArchiveSucces */
+
+.ArchiveSucces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  height: 162.75px;
+  padding: 25px 12px 15px 12px;
+  border-radius: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  box-shadow: 0px 0px 25.89px 5.93px #00000038;
+}
+
+.ArchiveSuccesTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ArchiveSuccesTexts p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+
+.ArchiveSuccesTexts span {
+  width: 290px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+
+/* SendSmsCourse */
+
+.SendSmsCourse {
+  width: 550px;
+  height: 535px;
+  padding: 20px;
+  gap: 25px;
+  border-radius: 15px;
+  background: var(--Colors-White, #ffffff);
+  box-shadow: 0px 0px 34.9px 8px #00000038;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.SendSmsPages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.SendSmsCourseClose {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+
+.SendSmsTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.SendSmsTexts p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+
+.SendSmsTexts span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #90a0b7;
+}
+
+.SendSmsPages button {
+  height: 36px;
+  padding: 10px 20px 10px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--Colors-Light-gray-Light-gray, #c2cfe0);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  cursor: pointer;
+  color: var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.active {
+  color: #005eeb !important;
+  border-bottom: 2px solid #005eeb !important;
+  transition: all 0.3s ease;
+}
+
+.SendSmsPages button:hover {
+  color: #727d8db7 !important;
+  border-bottom: 2px solid #727d8db7 !important;
+  transition: all 0.3s ease;
+}
+
+.showDivs {
+  padding: 15px;
+  height: 320px;
+}
+
+.SendSmsBtns {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.SendSmsBtns button {
+  width: 128px;
+  height: 32px;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: none;
+}
+
+.SendSmsButtonOne {
+  border: 1px solid #90a0b7 !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #90a0b7;
+  background: transparent;
+}
+
+.SendSmsButtonTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: white;
+  background: var(--Colors-Button-primary, #005eeb);
+}
+
+.SendSmsBtns button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.showDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 5px;
+}
+
+.showDiv1 textarea {
+  width: 100%;
+}
+
+.smsFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.smsFilter button {
+  padding: 5px 10px;
+  gap: 4px;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #005eeb;
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #005eeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.smsFilter svg {
+  stroke: #005eeb;
+}
+
+.sendMessage {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ebeff5;
+  padding: 14px 4px 14px 14px;
+  border-radius: 8px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+.sendMessage textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 236px;
+  max-height: 236px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+}
+
+.smsFilterCategory {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.showDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.showDiv2Radios {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  height: 336px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.showDiv2Radios label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ebeff5;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #707683;
+  cursor: pointer;
+}
+
+.showDiv2Radios::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.showDiv2Radios::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.showDiv2Radios::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}
+
+.showDiv2Btns {
+  width: 100%;
+}
+
+.showDiv2Btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Poppins;
+  padding: 10px;
+  gap: 4px;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #005eeb;
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #005eeb;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+}
+
+.showDiv2Btns button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.showDiv3 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ebeff5;
+  border-radius: 1px;
+  padding: 5px;
+}
+
+.showDiv3Titles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebeff5;
+  padding: 5px;
+}
+
+.showDiv3Titles div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #707683;
+}
+
+.showDiv3Personals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.showDiv3Personal {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #707683;
+  padding: 5px;
+}
+
+.showDiv3Personals::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.showDiv3Personals::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.showDiv3Personals::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}

@@ -1,0 +1,953 @@
+.GroupShedulComtainer {
+    width: 1144px;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    transition: .3s ease all;
+}
+
+.GroupShedulComtainer:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.GroupShedulComtainer:hover .GroupShedulComtainerTitleLeft span {
+    color: #005EEB;
+}
+
+.GroupShedulComtainerTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    height: 40px;
+    align-items: flex-start;
+    padding: 0px 0px 8px 0px;
+}
+
+.GroupShedulComtainerTitleRight {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.GroupShedulComtainerTitleLeft {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.GroupShedulComtainerTitleLeft p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold;
+    margin-top: 2px;
+}
+
+.GroupShedulComtainerTitleLeft span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.GroupShedulComtainerTitleRight .Bonus {
+    width: 387px;
+    height: 24px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF7EA;
+    gap: 4px;
+}
+
+.GroupShedulComtainerTitleRight .Bonus span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFB946;
+}
+
+.GroupShedulComtainerTitleRight .Bonus p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #323C47;
+    font-family: Regular;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.buttonContainerdropdown-container {
+    position: relative;
+}
+
+.buttonContainerdropdown-header {
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid var(--Colors-Light-gray-Light-gray, #C2CFE0);
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    border-radius: 8px;
+    color: #90A0B7;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.buttonContainerdropdown-header:hover {
+    border: 1px solid #707683;
+    color: #707683;
+}
+
+.buttonContainerdropdown-icon {
+    font-size: 10.5px;
+}
+
+.buttonContainerdropdown-list {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 185px;
+    height: 131px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 7.4px 0px #00000066;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.buttonContainerdropdown-item {
+    width: 100%;
+    height: 32px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+    margin: 0;
+    border-bottom: 1px solid #E4EAF1;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.buttonContainerdropdown-item:hover {
+    background-color: #E0EDFF;
+    color: #005EEB;
+}
+
+.buttonContainer .EditButton {
+    width: 137px;
+    height: 27px;
+    background-color: #fff;
+    border: 1px solid #005EEB;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.1px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.buttonContainer .EditButton:hover {
+    background-color: #E0EDFF;
+}
+
+.buttonContainer .EditButton p {
+    font-size: 12px;
+    line-height: 16.2px;
+    font-weight: 500;
+    font-family: Medium;
+    letter-spacing: 1%;
+    color: #005EEB;
+}
+
+.buttonContainer .EditButton span {
+    font-size: 11.74px;
+    color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupShedulTable {
+    width: 1120px;
+    height: 504px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid #EBEFF5;
+}
+
+.GroupShedulTableUp {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEFF5;
+}
+
+.GroupShedulTableUpLeft {
+    min-width: 222px;
+    height: 37px;
+    border-right: 1px solid #EBEFF5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupShedulTableUpLeft p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.GroupShedulTableUpRight {
+    min-width: 898px;
+    display: flex;
+    padding: 5px 35px 5px 35px;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupShedulTableUpRight button {
+    width: 80px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #707683;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 16.2px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.GroupShedulTableUpRight button:hover {
+    background-color: #005EEB;
+    color: #fff;
+}
+
+.dropdown-contentainer {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.dropdown-content {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+    width: 156px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+    padding: 7px 9px;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 0;
+    height: 0;
+    border-top: 13px solid #FFF;
+    border-left: 13px solid #fff;
+    background-color: #fff;
+    box-shadow: -4px -4px 7.4px 0px #0000001F;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-content h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 13.5px;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.dropdown-content p {
+    font-size: 10px;
+    font-family: Regular;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #334D6E;
+}
+
+
+.GroupShedulTableMidlleRight {
+    width: 898px;
+    height: 37px;
+    border-bottom: 1px solid #EBEFF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 4px 4px 6px 4px;
+}
+
+.GroupShedulTableMidlleRight_LeftButton {
+    min-width: 27px;
+    height: 27px;
+    border-radius: 8px;
+    border: 1px solid #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.GroupShedulTableMidlleRight_LeftButton:hover {
+    background-color: #E0EDFF;
+}
+
+
+.GroupShedulTableMidlleRight_LeftButton span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #005EEB;
+}
+
+.GroupShedulTableMidlleRight_MidleButton {
+    width: 828px;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    height: 100%;
+}
+
+.GroupShedulTableMidlleRight_MidleButton::-webkit-scrollbar {
+    display: none;
+}
+
+.GroupShedulTableMidlleRight_MidleButton::-webkit-scrollbar-track {
+    display: none;
+}
+
+.GroupShedulTableMidlleRight_MidleButton::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.GroupShedulTableMidlleRight_MidleButton button {
+    min-width: 80px;
+    height: 24px;
+    border-radius: 4px;
+    border: 0.5px solid var(--Colors-Normal-gray-Normal-gray, #90A0B7);
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.GroupShedulTableMidlleRight_MidleButton button:hover {
+    background-color: #005EEB;
+    color: #fff;
+    border: 1px solid #005EEB;
+}
+
+.GroupShedulTableMidlle {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GroupShedulTableMidlleLeft {
+    min-width: 222px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #EBEFF5;
+    border-bottom: 1px solid #EBEFF5;
+}
+
+.GroupShedulTableMidlleLeft label {
+    width: 210px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    border: 1px solid #C2CFE0;
+    background-color: #fff;
+    overflow: hidden;
+    transition: .3s ease all;
+}
+
+.GroupShedulTableMidlleLeft label:hover {
+    border: 1px solid #192A3E;
+}
+
+.GroupShedulTableMidlleLeft label:hover span {
+    margin-left: 30px;
+    color: #192A3E;
+}
+
+.GroupShedulTableMidlleLeft label:hover input::placeholder {
+    color: #192A3E;
+}
+
+.GroupShedulTableMidlleLeft label span {
+    font-size: 20px;
+    color: #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.GroupShedulTableMidlleLeft label input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+    transition: .3s ease all;
+
+}
+
+.GroupShedulTableMidlleLeft label input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+    transition: .3s ease all;
+}
+
+.GroupShedulUserTable {
+    width: 1120px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.GroupShedulUserTableBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1120px;
+    height: 32px;
+    border-bottom: 1px solid #E4F4FD;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.GroupShedulUserTableBox:hover {
+    background-color: #E4F4FD;
+}
+
+.GroupShedulUserTableBox:hover .GroupShedulUserTableBoxRight_ButtonBox button {
+    background-color: #F8FAFC;
+}
+
+.GroupShedulUserTableBoxLeft {
+    min-width: 222px;
+    height: 32px;
+    border-right: 1px solid #E4F4FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.5px 10px;
+}
+
+.GroupShedulUserTableBoxLeft_id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupShedulUserTableBoxLeft_id p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    font-weight: 400;
+    color: #707683;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupShedulUserTableBoxLeft_Name {
+    width: 75px;
+    height: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.GroupShedulUserTableBoxLeft_Name p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    font-family: Regular;
+    font-weight: 400;
+    color: #707683;
+}
+
+.GroupShedulUserTableBoxLeft_Status {
+    width: 47px;
+    height: 19px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ED47A;
+}
+
+.GroupShedulUserTableBoxLeft_Status p {
+    font-size: 12px;
+    line-height: 16.2px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.GroupShedulUserTableBoxRight {
+    width: 898px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 35px 0px 33px;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button {
+    width: 80px;
+    height: 24px;
+    border-radius: 4px;
+    border: .5px solid #C2CFE0;
+    background-color: white;
+}
+
+.NachaLoGroupShedulUserTableBoxLeft {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button:hover .ButtonLeft,
+.GroupShedulUserTableBoxRight_ButtonBox button:hover .ButtonRight {
+    display: flex;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button .ButtonLeft {
+    min-width: 40px;
+    max-width: 40px;
+    height: 24px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ED47A;
+    font-size: 16px;
+    color: #FFF;
+    transition: .3s all ease;
+    gap: 4px;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button .ButtonLeft p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: none;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button .ButtonRight {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 24px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7685B;
+    font-size: 16px;
+    color: #FFF;
+    transition: .3s all ease;
+    gap: 4px;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBox button .ButtonRight .ButtonLeftP {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: none;
+}
+
+.ButtonLeft:hover,
+.ButtonRight:hover {
+    min-width: 50px !important;
+}
+
+
+.ButtonLeft:hover~.ButtonRight,
+.ButtonRight:hover~.ButtonLeft {
+    min-width: 30px !important;
+    max-width: 30px !important;
+}
+
+.ButtonLeft:hover+.ButtonRight,
+.ButtonRight:hover+.ButtonLeft {
+    min-width: 30px !important;
+    max-width: 30px !important;
+}
+
+.VualeyTwoButtonSecBoxLeft,
+.VualeyTwoButtonSecBoxRightTwo,
+.VualeyTwoButtonSecBoxLeftThree,
+.VualeyTwoButtonSecBoxRightSec {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #707683;
+    font-size: 16px;
+    color: #FFF;
+    transition: .3s all ease;
+    gap: 4px;
+}
+
+.VualeyTwoButtonSecBoxLeftSec {
+    opacity: 1;
+    display: flex !important;
+    background-color: black !important;
+}
+
+
+.VualeyTwoButtonSecBoxRight,
+.VualeyTwoButtonSecBoxRightThree,
+.VualeyTwoButtonSecBoxLeftSec {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB946;
+    font-size: 16px;
+    color: #FFF;
+    gap: 4px;
+}
+
+.VualeyTwoButtonSecBoxRight:hover,
+.VualeyTwoButtonSecBoxLeft:hover,
+.VualeyTwoButtonSecBoxRightSec:hover,
+.VualeyTwoButtonSecBoxLeftSec:hover,
+.VualeyTwoButtonSecBoxRightTwo:hover .VualeyTwoButtonSecBoxRightThree:hover,
+.VualeyTwoButtonSecBoxRightThree:hover {
+    min-width: 50px !important;
+}
+
+.ButtonLeft.active,
+.ButtonRight.active,
+.VualeyTwoButtonSecBoxLeft.activete,
+.VualeyTwoButtonSecBoxRight.activete,
+.VualeyTwoButtonSecBoxRightSec.ACtSH,
+.VualeyTwoButtonSecBoxLeftSec.ACtSH,
+.VualeyTwoButtonSecBoxRightTwo.active {
+    display: flex !important;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    color: #fff !important;
+    text-decoration: none;
+    position: relative;
+}
+
+.VualeyTwoButtonSecBoxLeft p,
+.VualeyTwoButtonSecBoxRight p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: none;
+}
+
+.VualeyTwoButtonSecBoxLeft.activete p,
+.VualeyTwoButtonSecBoxRight.activete p,
+.VualeyTwoButtonSecBoxRightSec.activate p {
+    display: flex !important;
+}
+
+.ButtonLeft.active .ButtonLeftP,
+.ButtonRight.active .ButtonLeftP {
+    display: flex !important;
+}
+
+.VualeyTwoButtonSecBoxVnut,
+.VualeyTwoButtonSecBox,
+.VualeyTwoButtonSecBoxTT {
+    display: none;
+}
+
+.ButtonLeft.active:hover .VualeyTwoButtonSecBox,
+.ButtonRight.active:hover .VualeyTwoButtonSecBox,
+.VualeyTwoButtonSecBoxRight.activete:hover .VualeyTwoButtonSecBoxVnut,
+.VualeyTwoButtonSecBoxRightTwo.active:hover .VualeyTwoButtonSecBoxTT {
+    position: absolute;
+    display: flex !important;
+    justify-content: flex-start;
+    width: 80px !important;
+    height: 24px;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+
+
+.VualeyTwoButtonSecBoxRight:hover,
+.VualeyTwoButtonSecBoxLeft:hover,
+.VualeyTwoButtonSecBoxRightTwo {
+    min-width: 50px !important;
+}
+
+.ButtonLeft.active .VualeyTwoButtonSecBox.flex,
+.ButtonRight.active .VualeyTwoButtonSecBox.flex,
+.VualeyTwoButtonSecBoxLeft.activete .VualeyTwoButtonSecBoxVnut.flex,
+.VualeyTwoButtonSecBoxRight.activete .VualeyTwoButtonSecBoxVnut.flex,
+.VualeyTwoButtonSecBoxRightTwo.active .VualeyTwoButtonSecBox.flex {
+    display: flex !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.VualeyTwoButtonSecBoxRightTwo {
+    background-color: #334D6E !important;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownRightSecMod {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    top: 0;
+    right: -150px;
+    z-index: 100;
+    min-width: 122px;
+    min-height: 96px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+    border-radius: 6px;
+    padding: 8px 7px 4px 7px;
+}
+
+.dropdownRightSecMod ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdownRightSecMod ul li {
+    list-style: none;
+}
+
+.GroupShedulUserTableBoxRight_ButtonBoxContainer {
+    position: relative;
+}
+
+.dropdownRightSecModTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdownRightSecModTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: SamiBold;
+    color: #192A3E;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 600;
+}
+
+.dropdownRightSecModContant {
+    width: 108px;
+    height: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.dropdownRightSecModContant button {
+    width: 20px !important;
+    height: 18px !important;
+    border-radius: 4px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: .5px solid #EBEFF5 !important;
+    font-size: 12px !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    color: #707683 !important;
+    font-family: Regular !important;
+    cursor: pointer;
+    transition: .3s ease all;
+    background-color: #fff;
+}
+
+.dropdownRightSecModContant button:hover {
+    border: 1px solid #FFB946 !important;
+    color: #192A3E !important;
+}
+
+.dropdownRightSecModButton {
+    display: flex;
+    width: 83px;
+    height: 18px;
+    justify-content: space-between;
+}
+
+.dropdownRightSecModButton button {
+    width: 41px;
+    height: 18px;
+    border: none;
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.dropdownRightSecModButton button:nth-child(1) {
+    color: #707683;
+}
+
+.dropdownRightSecModButton button:nth-child(2) {
+    color: #33A9FF;
+}
+
+.VualeyTwoButtonSecBoxTT .VualeyTwoButtonSecBoxLeftSec {
+    display: block;
+}

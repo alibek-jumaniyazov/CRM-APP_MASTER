@@ -1,0 +1,218 @@
+.CustomerContainer {
+    width: 1184px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.CustomerProfileOne {
+    margin-top: 10px;
+    gap: 24px !important;
+}
+
+.CustomerStatBoxText h2 {
+    color: #192A3E !important;
+}
+
+.CustomerStatBoxText p {
+    color: #192A3E !important;
+}
+
+.PayContantCustomer {
+    width: 501px;
+    height: 441.43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PayContantCustomerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PayContantCustomerIcon {
+    width: 321px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+}
+
+.PayContantCustomerIcon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #95D3F9;
+    transition: .3s ease all;
+}
+
+.PayHistory:hover span {
+    color: #33A9FF;
+}
+
+.PayContantCustomerIcon h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    font-weight: 600;
+    color: #95D3F9;
+    transition: .3s ease all;
+}
+
+.PayHistory:hover h2 {
+    color: #33A9FF;
+}
+
+.PayContantCustomerIcon p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    color: #C2CFE0;
+    font-family: Regular;
+    transition: .3s ease all;
+}
+
+.PayHistory:hover p {
+    color: #334D6E;
+}
+
+.CustomerNav {
+    width: 1144px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14.5px 0px 0px 0px;
+}
+
+.CustomerNavRight {
+    width: 256px;
+    height: 36px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.CustumerBack {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #90A0B7;
+    background: none;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.CustomerNavRightnavbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomerNavRightnavbuttons button {
+    width: 100px;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid #C2CFE0;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.CustomerNavRightnavbuttons button:hover {
+    color: #727d8db7 !important;
+    border-bottom: 2px solid #727d8db7 !important;
+}
+
+#Contacted {
+    background-color: #FFB946;
+    color: #fff;
+}
+
+.RightStudNavCus {
+    padding: 0 !important;
+}
+
+.DotContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.DeleteDrop {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 100;
+    width: 185px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 7.4px 0px #00000066;
+    border: 1px solid #E4EAF1;
+}
+
+.DeleteDrop button {
+    width: 100%;
+    border: none !important;
+    display: flex;
+    justify-content: flex-start;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.DeleteDrop button p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    color: #F7685B;
+    font-family: Regular;
+}
+
+.DeleteDrop button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7685B;
+    font-size: 12px;
+}
+
+.DeleteDrop button:hover {
+    background-color: #FEEEED !important;
+}
+
+.HistoryAWD {
+    height: 800px;
+}
+
+.HistoryAWDCus {
+    padding: 0 !important;
+    margin-top: 10px;
+}

@@ -1,0 +1,777 @@
+.PersonalCards {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 70px;
+  margin-top: 60px;
+}
+
+.PersonalCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 260px;
+  height: 353px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.PersonalCard:hover {
+  box-shadow: 0px 0px 15px 0px #00000033;
+  transition: all 0.3s ease;
+}
+
+.NameComponentPersonal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  padding: 10px;
+  border-radius: 40%;
+  border: 4px solid var(--hover-color-personal);
+  transition: all 0.3s ease;
+}
+
+.NameComponentPersonalImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px !important;
+  height: 78px !important;
+  border-radius: 40%;
+  border: 4px solid var(--hover-color-personal);
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .NameComponentPersonalImage {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px 0px var(--hover-color-personal);
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .NameComponentPersonal {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px 0px var(--hover-color-personal);
+  transition: all 0.3s ease;
+}
+
+.NameComponentPersonal p {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 48.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.PersonalCardHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -70px;
+}
+
+.PersonalCardTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.PersonalCardTitle p {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalCardTitle p,
+.PersonalCard:hover .PersonalCardTitle span {
+  color: #192a3e;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardTitle span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardPhone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 19px;
+  padding: 5px 10px;
+  gap: 5px;
+  border-radius: 8px;
+  border: 0.5px solid #33a9ff;
+}
+
+.PersonalCardPhone p {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #33a9ff;
+}
+
+.PersonalCardInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.PersonalCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PersonalCardInfo p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  color: #707683;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardInfo span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #707683;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalCardInfo p,
+.PersonalCardInfo span {
+  color: #323c47;
+  transition: all 0.3s ease;
+}
+
+.PersonalHR {
+  width: 32px;
+  height: 5px;
+  border-radius: 10px;
+  background: #f1f4f8;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalHR {
+  background: #cae9fc;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardBranches {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.PersonalCardBranch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  height: 18px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 6px;
+  border: 0.5px solid #707683;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardBranch p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #707683;
+  transition: all 0.3s ease;
+}
+
+.PersonalCardBranch svg {
+  stroke: #707683;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalCardBranch {
+  border: 0.5px solid #33a9ff;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalCardBranch p {
+  color: #33a9ff;
+  transition: all 0.3s ease;
+}
+
+.PersonalCard:hover .PersonalCardBranch svg {
+  stroke: #33a9ff;
+  transition: all 0.3s ease;
+}
+
+.PersonalHistoyTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 844px;
+  height: 685px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.PersonalHistoyTableHeaderTitle {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.PersonalHistoyTableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.PersonalHistoyTableHeaderActions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.PersonalHistoyTableHeaderActions select {
+  width: 100px;
+  padding: 6px 20px;
+  border-radius: 8px;
+  border: 1px solid #c2cfe0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+  outline: none;
+}
+
+.PersonalHistoyTableHeaderActions div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 160px;
+  padding: 6px 20px;
+  border-radius: 8px;
+  border: 1px solid #c2cfe0;
+}
+
+.PersonalHistoyTableHeaderActions div input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+}
+
+.PersonalHistoyTableHeaderActions div input::placeholder {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+}
+
+.PersonalHistoyTableCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  height: 900px;
+  overflow-y: scroll;
+}
+
+.PersonalHistoyTableCard {
+  padding: 20px 10px;
+  border-radius: 8px;
+  border: 1px solid #ebeff5;
+}
+
+.PersonalHistoyTableCardInfos {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  border-left: 1px solid #90a0b7af;
+  padding-left: 10px;
+}
+
+.PersonalHistoyTableCardInfos p {
+  font-size: 13.8px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #334d6e;
+}
+
+.PersonalHistoyTableCardInfos span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #707683;
+}
+
+.PersonalHistoyTableCards::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.PersonalHistoyTableCards::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.PersonalHistoyTableCards::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}
+
+/* PersonalFinance */
+
+.PersonalFinance {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 23px;
+  margin-top: 30px;
+}
+
+.PersonalFinanceTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.PersonalFinanceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+
+.ant-table-wrapper {
+  width: 100%;
+}
+
+.PersonalFinanceUserCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 267px;
+  height: 180px;
+  padding: 12px;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceUserCard:hover {
+  box-shadow: 0px 0px 25.89px 5.93px #00000038;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceUserCard p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.PersonalFinanceUserCard span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.PersonalFinanceUserCardInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.PersonalFinanceUserCardInfos div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.PersonalFinanceTotalPeyment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 420px;
+  height: 180px;
+  padding: 12px;
+  gap: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceTotalPeyment:hover {
+  box-shadow: 0px 0px 25.89px 5.93px #00000038;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceTotalPeyment p {
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.PersonalFinanceTotalPeyment span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.PersonalFinanceTotalPeymentInfos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.PersonalFinanceTotalPeymentTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.PersonalFinanceTotalPeymentTextsBlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.PersonalFinanceTotalPeymentTextsBlog div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.PersonalFinanceTotalPeymentAmount {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: #005eeb;
+}
+
+.PersonalFinanceTotalPeymentAmount2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: #c2cfe0;
+}
+
+.PersonalFinanceCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: calc(542px - 20px);
+}
+
+.PersonalFinanceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 221px;
+  height: 72px;
+  padding: 15px;
+  gap: 15px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceCard:hover {
+  box-shadow: 0px 0px 25.89px 5.93px #00000038;
+  transition: all 0.3s ease;
+}
+
+.PersonalFinanceCardHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PersonalFinanceCardHeader svg {
+  stroke: #90a0b7;
+}
+
+.PersonalFinanceCard p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #334d6e;
+}
+
+.PersonalFinanceCard span {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+}
+
+.CourseLavelTableDiv {
+  width: 100%;
+}
+
+.ant-upload-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-upload {
+  width: 370px !important;
+  height: auto !important;
+  padding: 8px 0px !important;
+  border-radius: 10px !important;
+}
+
+.UserPersonalProfileTitles {
+  width: 383px;
+  height: 53px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProfileBackDark {
+  position: absolute;
+  background: #0000004D;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.UserPersonalProfile {
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.UserPersonalProfile:hover #ActivePerCur {
+  display: none;
+}
+
+.UserPersonalProfile:hover .ProfileBackDark {
+  opacity: 1;
+  visibility: visible;
+}
+
+.UserPersonalProfileHeader span {
+  position: relative;
+  z-index: 100;
+  width: 43px;
+  height: 13.5px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #FFFFFF;
+  gap: 2px;
+  border-radius: 4px;
+  transition: .3s ease all;
+  cursor: pointer;
+}
+
+.UserPersonalProfileHeader span p {
+  font-size: 10px;
+  font-family: Medium;
+  font-weight: 500;
+  line-height: 14.5px;
+  letter-spacing: 1%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.UserPersonalProfileHeader span:hover {
+  background: #FFFFFF4D;
+  gap: 4px;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileHeader span {
+  display: flex;
+}
+
+.UserPersonalProfileBranch {
+  transition: .3s ease all;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+.UserPersonalProfileBranch:hover {
+  background-color: #FFFFFF;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileBranch:hover p {
+  color: #005eeb;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileBranch:hover svg {
+  stroke: #005eeb !important;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileBranch {
+  border: 1px solid #B2B2B2;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileBranch p {
+  color: #B2B2B2;
+  transition: .3s ease all;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfileBranch svg {
+  stroke: #B2B2B2;
+  transition: .3s ease all;
+}
+
+.UserPersonalProfilePhone {
+  transition: .3s ease all;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.UserPersonalProfilePhone p {
+  transition: .3s ease all;
+
+}
+
+.UserPersonalProfile:hover .UserPersonalProfilePhone {
+  color: #B2B2B2;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfilePhone {
+  color: #B2B2B2;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfilePhone:hover {
+  color: #005EEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #fff;
+}
+
+.UserPersonalProfilePhone span {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, font-size 0.3s ease;
+}
+
+.UserPersonalProfile:hover .UserPersonalProfilePhone:hover span {
+  font-size: 12px;
+  color: #005EEB;
+  opacity: 1;
+  visibility: visible;
+}

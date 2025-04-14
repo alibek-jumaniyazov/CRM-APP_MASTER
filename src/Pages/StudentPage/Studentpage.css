@@ -1,0 +1,4680 @@
+.StudentsNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35.5px 0;
+}
+
+.LeftStudNav {
+    display: flex;
+    padding: 0 20px;
+    gap: 24px;
+}
+
+.RightStudNav {
+    display: flex;
+    padding: 0 20px;
+    gap: 10px;
+    position: relative;
+    align-items: flex-end;
+}
+
+.RightStudNav button {
+    width: 178px;
+    height: 32px;
+    padding: 7.5px 20px;
+    border: 1px solid #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5px;
+    outline: none;
+    background: none;
+    color: #005EEB;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: .3s all ease;
+    cursor: pointer;
+    gap: 5.33px;
+}
+
+.RightStudNav button:hover {
+    background-color: #E4F4FD;
+}
+
+.RightStudNav button span {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#Add {
+    width: 134px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    padding: 10px 20px 10px 20px;
+    transition: .3s ease all;
+}
+
+#Individual {
+    width: 154px;
+    background-color: #005EEB;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+
+#Individual p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dot {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    font-size: 16px;
+    color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AddLesson {
+    width: 178px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #005EEB;
+    font-family: Medium;
+    gap: 0;
+    transition: .3s ease all;
+}
+
+#Homework {
+    width: 164px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Medium;
+    background-color: #005EEB;
+    gap: 0;
+}
+
+.UserProfilRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ButtonBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #90A0B7;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.ButtonBack button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #90A0B7;
+    cursor: pointer;
+}
+
+.ButtonBack:hover {
+    border: 1px solid #000;
+}
+
+.ButtonBack:hover button {
+    color: #192A3E;
+    ;
+}
+
+.ButtonNavigationStud {
+    display: flex;
+}
+
+.ButtonNavigationStud button {
+    width: auto;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid #90A0B7;
+    background: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #90A0B7;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.ButtonNavigationStud button.active {
+    color: #005EEB;
+    border-bottom: 2px solid #005EEB;
+}
+
+.ButtonNavigationStud button.active:hover {
+    color: #005EEB;
+    border-bottom: 2px solid #005EEB;
+}
+
+.ButtonNavigationStud button:hover {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+#Profile {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Lesson {
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Finance {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#History {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px
+}
+
+.USerProfileOne {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+
+.UserProfile {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 204px;
+    background-image: url(./../../Assets/Clients/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 0 18px 0 55px;
+    overflow: hidden;
+}
+
+.UserProfileLeft {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.UserProfileAvatars {
+    width: 86px;
+    height: 86px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.UserProfileAvatars img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.UserProfileNaming {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserProfileNaming p,
+.UserProfileNaming h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.UserProfileNaming h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 48.6px;
+    letter-spacing: 1%;
+    font-family: Bold;
+}
+
+.UserProfileNaming p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #ffffff;
+    font-family: Regular;
+}
+
+.UserProfileStatus {
+    display: flex;
+    gap: 9px;
+}
+
+.UserProfileStatus button {
+    outline: none;
+    border: none;
+    padding: 1.5px 6px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #334D6E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}
+
+
+#Active {
+    background-color: #2ED47A;
+    color: #FFFFFF;
+}
+
+.UserProfileCard {
+    position: relative;
+    width: 267px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    padding: 16px 16px 16px 12px;
+    border-radius: 13px;
+    z-index: 1000;
+    background-color: #00000015;
+    box-shadow: 0px 0px 4.7px 0px #00000040;
+    background-image: url(./../../Assets//Clients/Mask\ group.png);
+    overflow: hidden;
+    transition: .3s all ease;
+}
+
+.bguserprofilcard {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+.bgimage1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bgimage2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bgimage2 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.UserTextProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 18px;
+}
+
+.CardId {
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.CardId h2 {
+    width: auto;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    line-height: 1%;
+    font-family: SamiBold;
+}
+
+.CardId p {
+    width: auto;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 4px 0px 4px;
+}
+
+.CardId p:hover {
+    background: #FFFFFF4D;
+}
+
+.CardId p:hover .copiedebat {
+    display: flex;
+}
+
+.copiedebat {
+    display: none;
+    color: white;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.CardBalance {
+    position: relative;
+    z-index: 2;
+    font-family: "Poppins", sans-serif;
+}
+
+.CardBalance h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    color: #ffffff;
+    font-family: Bold;
+}
+
+.CardBalance p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #ffffff;
+    font-family: SamiBold;
+}
+
+.UserPointsUp {
+    width: 320px;
+    height: 96px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    gap: 14px;
+    border-radius: 10px;
+    padding: 12px 14px 12px 14px;
+}
+
+.UserPointUpNav {
+    width: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.UserPointUpNav p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+}
+
+.UserPointsBox {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+    width: 147px;
+}
+
+.UserPointsBox p {
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.PointsAva {
+    width: 40;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Pointss {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.PointsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.PointsText span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.PointsText p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: Medium;
+}
+
+.Average {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.AverageAva {
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.AverageAva img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AverageText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.AverageText span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SemiBold;
+    color: #192A3E;
+}
+
+.AverageText p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.UserPointsQR {
+    position: relative;
+    width: 320px;
+    height: 96px;
+    padding: 12.5px 13px 12.5px 13px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.UserPointsQRHober {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserPointsQRHober span {
+    display: none;
+    transition: .3s all ease;
+}
+
+.Qrbox:hover .UserPointsQRHober {
+    background: #33A9FFA6;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Qrbox:hover .UserPointsQRHober span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.UserPoints {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Qrbox {
+    position: relative;
+    min-width: 70px;
+    max-width: 70px;
+    height: 70px;
+    border: 1px solid #E6EAEF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.QrCopy {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.QrCopy p {
+    color: #192A3E;
+    font-size: 12px;
+    line-height: 16.2px;
+    font-weight: 600;
+    font-family: SamiBold;
+}
+
+.QrCopy span {
+    color: #33A9FF;
+}
+
+.QrTextbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.QrAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 400;
+    color: #33A9FF;
+    font-family: Regular;
+}
+
+.QrAbout p {
+    width: 74px;
+    border-bottom: 1px solid transparent;
+}
+
+.QrAbout p:hover {
+    border-bottom: 1px solid #33A9FF;
+    cursor: pointer;
+    width: 74px;
+}
+
+.StatsCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.Statsbox {
+    width: 222px;
+    height: 104px;
+    border-radius: 10px;
+    padding: 12px 37px 8px 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+    gap: 6px;
+    transition: .3s ease all;
+}
+
+.boardStats {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.boardStats span svg{
+    stroke: #90A0B7;
+    font-size: 16px;
+    transition: .3s ease all;
+}
+.boardStats span {
+    color: #90A0B7;
+    font-size: 16px;
+    transition: .3s ease all;
+}
+
+
+.StatsBoxUp {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.StatBoxText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.PropStats {
+    width: 32px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #F1F4F8;
+    transition: .3s all ease;
+}
+
+.StatsBoxUp p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+
+.StatBoxText h2 {
+    height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    color: #323C47;
+    font-family: SamiBold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.StatBoxText h2 p {
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Medium;
+}
+
+.StatBoxText p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #323C47;
+    font-family: Medium;
+}
+
+#Amount {
+    width: 209px;
+    height: 104px;
+    padding: 12px 0px 8px 0px;
+}
+
+#Debt h2,
+#Debt h2 p {
+    color: #F7685B;
+}
+
+.Statsbox:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+
+}
+
+.Statsbox:hover .boardStats span svg {
+    stroke: #005EEB;
+}
+.Statsbox:hover .boardStats span svg {
+    color: #005EEB;
+}
+
+.Statsbox:hover .StatsBoxUp p {
+    color: #192A3E;
+    ;
+}
+
+.Statsbox:hover .PropStats {
+    background-color: #CAE9FC;
+}
+
+.ContactsLeadImfo {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.Contacts,
+.LeadInfo {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 190px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px 25px 20px;
+    transition: .3s all ease;
+    position: relative;
+}
+
+.Contacts:hover,
+.LeadInfo:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.Contacts:hover .ContactsRightEdit,
+.LeadInfo:hover .ContactsRightEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contacts:hover .ContactsTitle span,
+.LeadInfo:hover .ContactsTitle span {
+    color: #005EEB;
+}
+
+.ContactsRightEdit {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    color: #90A0B7;
+    transition: .3s all ease;
+}
+
+.ContactContant,
+.LeacContant {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 13px;
+}
+
+.ContactsLeft {
+    width: 242px;
+    height: 116px;
+}
+
+.ContactsRight {
+    width: 212px;
+    height: 116px;
+}
+
+.ContactsTitle {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    gap: 5px;
+}
+
+.ContactsTitle span {
+    color: #90A0B7;
+    font-size: 16px;
+    transition: .3s all ease;
+}
+
+.ContactsTitle p {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: SamiBold;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+}
+
+.ContactsLeft,
+.ContactsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.ContactLeftPhone,
+.ContactLeftSecondary,
+.ContactLeftBirthday,
+.ContactLeftGender,
+.ContactsRightAdress,
+.ContactsRightTelegram,
+.ContactsRightInstagram,
+.ContactsRightEmail {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+
+.ContactLeftPhone h3,
+.ContactLeftSecondary h3,
+.ContactLeftBirthday h3,
+.ContactLeftGender h3,
+.ContactsRightAdress h3,
+.ContactsRightTelegram h3,
+.ContactsRightInstagram h3,
+.ContactsRightEmail h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold;
+}
+
+.ContactLeftPhone p,
+.ContactLeftSecondary p,
+.ContactLeftBirthday p,
+.ContactLeftGender p,
+.ContactsRightAdress p,
+.ContactsRightTelegram p,
+.ContactsRightInstagram p,
+.ContactsRightEmail p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: Medium;
+}
+
+#InfoWeb {
+    width: 60px;
+    height: 19px;
+    border-radius: 4px;
+    border: 0.5px solid #2ED47A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2ED47A;
+}
+
+.CommentsPayHistory {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.UserComments {
+    width: 560px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ffffff;
+    transition: .3s ease all;
+}
+
+
+.UserCommentContant {
+    width: 520px;
+    height: 372px;
+    padding: 12px 10px 10px 10px;
+    border: 1px solid #EBEFF5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+}
+
+.UserCommentContant::-webkit-scrollbar {
+    width: 12px;
+}
+
+.UserCommentContant::-webkit-scrollbar-track {
+    background: #F6FAFF;
+    border: 1px solid #E4EAF1;
+    border-radius: 8px;
+}
+
+.UserCommentContant::-webkit-scrollbar-thumb {
+    background-color: #B0C2DA;
+    border-radius: 20px;
+    border: 3px solid #F6FAFF;
+}
+
+.UserComTitle {
+    display: flex;
+    gap: 4px;
+}
+
+.UserComTitle p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.UserComTitle span {
+    font-size: 15px;
+    color: #90A0B7;
+}
+
+.UserCommentBox {
+    width: 481px;
+    height: 98px;
+    border-radius: 8px;
+    border: 1px solid #EBEFF5;
+    padding-left: 12.69px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 8.65px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.UserComText {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserComUp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.UserComUp p {
+    color: #334D6E;
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+}
+
+.UserComUp span {
+    font-size: 16px;
+    color: #C2CFE0;
+}
+
+.USerComDuwn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.USerComDuwn p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.USerComDuwn span {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Regular;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #C2CFE0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.UserComText {
+    border-left: 1px solid #90A0B7;
+    padding-left: 8.31px;
+}
+
+.UserCommentBox:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.UserCommentBox:hover .UserComText {
+    border-left: 1px solid #005EEB;
+}
+
+.CommentSend {
+    display: flex;
+    align-items: flex-start;
+    /* Изменено для выравнивания textarea и кнопки */
+    width: 100%;
+    height: 56px;
+    overflow-x: hidden;
+    /* Убирает горизонтальную прокрутку */
+}
+
+.CommentSend textarea {
+    width: 448px;
+    height: 100%;
+    /* Задайте нужную высоту */
+    border-radius: 8px;
+    border: 1px solid #EBEFF5;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    padding: 8px;
+    /* Добавляем внутренние отступы */
+    box-sizing: border-box;
+    /* Учитывает padding и border в ширине */
+    resize: none;
+    /* Переносит длинные слова */
+}
+
+.CommentSend .submit {
+    height: 100%;
+    background: none;
+    color: #90A0B7;
+    border: none;
+    border-radius: 8px;
+    /* Совпадает с радиусом бордера textarea */
+    cursor: pointer;
+    margin-left: 10px;
+    /* Отступ слева для кнопки */
+    box-sizing: border-box;
+    /* Учитывает padding и border в ширине */
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+.PayHistory {
+    width: 560px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.PayHistoryContant {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.PayHistoryTitle {
+    display: flex;
+}
+
+.PayHistoryTitle p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold;
+}
+
+#Transaction {
+    width: 110px;
+    height: 16px;
+    text-align: start;
+    margin-right: 17px;
+
+}
+
+#Amountp {
+    width: 94px;
+    height: 16px;
+    text-align: start;
+}
+
+#TypeP {
+    width: 71px;
+    height: 16px;
+    text-align: start;
+    margin-right: 2px;
+}
+
+#CourseP {
+    width: 108px;
+    height: 16px;
+    text-align: start;
+    margin-right: 2px;
+}
+
+#DateP {
+    width: 62px;
+    height: 16px;
+    text-align: start;
+}
+
+.PayContant {
+    height: 441.43px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    gap: 12px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.PayContant::-webkit-scrollbar {
+    width: 12px;
+}
+
+.PayContant::-webkit-scrollbar-track {
+    background: #F6FAFF;
+    border: 1px solid #E4EAF1;
+    border-radius: 8px;
+}
+
+.PayContant::-webkit-scrollbar-thumb {
+    background-color: #B0C2DA;
+    border-radius: 20px;
+    border: 3px solid #F6FAFF;
+}
+
+.PayBox {
+    width: 500px;
+    height: 60px;
+    border: 1px solid #EBEFF5;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: .3s all ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.PayBox:hover {
+    background-color: #E4F4FD;
+}
+
+.PayBoxActive {
+    background-color: #E4F4FD;
+}
+
+.Transaction {
+    display: flex;
+    align-items: center;
+    gap: 11.6px;
+}
+
+.Transaction span {
+    font-size: 20px;
+    color: #F7685B;
+}
+
+.Transaction p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: Regular;
+    width: 84.41px;
+}
+
+.Abount {
+    display: flex;
+    align-items: center;
+}
+
+.Abount p {
+    width: 98px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #192A3E;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+}
+
+.TypeP {
+    display: flex;
+    align-items: center;
+}
+
+.TypeP p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+    width: 71px;
+}
+
+.Cource {
+    display: flex;
+    align-items: center;
+}
+
+.Cource p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+    width: 108px;
+}
+
+.DateP {
+    display: flex;
+    align-items: center;
+    width: 89px;
+    justify-content: space-between;
+}
+
+.DateP span {
+    font-size: 15px;
+    color: #90A0B7;
+}
+
+.DateP p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: Regular;
+}
+
+#PayCheck {
+    color: #2ED47A;
+}
+
+.DropdownContent {
+    width: 500px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #C2CFE0;
+    border-top: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 10px;
+}
+
+.DropduwnDuwn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Duwnright {
+    display: flex;
+    gap: 14px;
+}
+
+.Duwnright button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    background: none;
+    border: none;
+    gap: 3px;
+}
+
+.Duwnright button p {
+    font-size: 10px;
+    color: #33A9FF;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: "Poppins", sans-serif;
+}
+
+.Duwnright button span {
+    font-size: 14px;
+    color: #33A9FF;
+}
+
+.DropduwnUp p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: "Poppins", sans-serif;
+}
+
+.DropduwnUp h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 16.2px;
+    color: #192A3E;
+    font-family: "Poppins", sans-serif;
+}
+
+.DuwnLeft {
+    display: flex;
+    gap: 6px;
+}
+
+.DuwnRight {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #2ED47A;
+    gap: 4px;
+    width: 91px;
+    height: 19px;
+    padding: 0 6px 0 6px;
+    color: white;
+}
+
+.DuwnRight p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: "Poppins", sans-serif;
+}
+
+.DuwnRight span {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time p {
+    color: #90A0B7;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: "Poppins", sans-serif;
+}
+
+.FixButtonStudentPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FixButtonStudentPageButton {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    position: fixed;
+    right: 12px;
+    bottom: 26px;
+    border-radius: 8px;
+    background: #005EEB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    gap: 4px;
+    cursor: pointer;
+    transition: .3s all ease;
+    z-index: 100;
+}
+
+.FixButtonStudentPage button p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #fff;
+}
+
+.FixButtonStudentPage button span {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FixButtonStudentPage button:hover {
+    background: #2196f3;
+}
+
+.FixButtonModalSms {
+    position: fixed;
+    right: 24px;
+    bottom: 12px;
+    top: auto;
+    left: auto;
+    transform: translate(0%, 0%);
+    width: 300px;
+    height: 536px;
+    z-index: 1001;
+    border-radius: 10px;
+}
+
+.FixButtonModalSmsClose {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    color: #C2CFE0;
+    padding: 0;
+}
+
+.FixButoonStudentWindow {
+    width: 210px;
+    height: 36px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.FixButoonStudentWindow button {
+    width: 100px;
+    height: 36px;
+    background: none;
+    color: #90A0B7;
+    border: none;
+    border-bottom: 1px solid #90A0B7;
+    border-radius: 0;
+    font-family: Medium;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.FixButoonStudentWindow button:hover {
+    width: 100px;
+    height: 36px;
+    background: none;
+    color: #90A0B7;
+    border-bottom: 1px solid #90A0B7;
+    border-radius: 0;
+    font-family: Medium;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+}
+
+.FixButoonStudentWindow button.templates {
+    color: #005EEB;
+    border-bottom: 1px solid #005EEB;
+}
+
+.UserHoverBOx {
+    position: absolute;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.UserProfile:hover .UserHoverBOx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 100%;
+    background: #0000004D;
+    z-index: 1000;
+}
+
+.UserProfile:hover .UserProfileCard {
+    margin-top: -10px;
+}
+
+.UserProfileEdit {
+    position: absolute;
+    right: 14px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 41px;
+    height: 14px;
+    z-index: 1001;
+    border-radius: 4px;
+    transition: .3s all ease;
+}
+
+.UserProfileEdit span {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserProfileEdit p {
+    height: 100%;
+    font-family: Medium;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.UserProfileEdit:hover {
+    background: #FFFFFF4D;
+}
+
+.QrCopy:hover span {
+    border: 1px solid #33A9FF;
+}
+
+.active-copied {
+    background-color: #E4F4FD;
+}
+
+.QrCopy:hover span p {
+    width: 82px;
+    height: 14px;
+}
+
+.QrCopy span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0px 4px 0px 4px;
+    border: 1px solid transparent;
+    transition: .3s all ease;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.QrCopy span p {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #33A9FF;
+    transition: .3s all ease;
+}
+
+.DotDrop {
+    position: absolute;
+    top: 42px;
+    right: 17px;
+    z-index: 1000;
+    width: 185px;
+    height: 64px;
+    box-shadow: 0px 0px 7.4px 0px #00000066;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.DotDrop button {
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #E4EAF1;
+    color: #F7685B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0;
+    gap: 5px;
+    transition: .3s all ease;
+}
+
+.DotDrop button:hover {
+    background-color: #FEEEED;
+}
+
+.Lessonhomework {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LessonhomeworkGlavContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.LessonhomeworkGlavContentLeft {
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    gap: 24px;
+    height: 723px;
+}
+
+.LessonhomeworkGlavContentLeftUp {
+    width: 276px;
+    height: 190px;
+    background-color: #fff;
+    padding: 10.5px 12px 12px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.LessonhomeworkGlavContentLeftUpNav {
+    display: flex;
+    width: 252px;
+    height: 19px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavTitle {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.NavPoints {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 146px;
+    height: 19px;
+}
+
+.points-box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 95px;
+
+}
+
+.points-box p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.points-active {
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 6px 0px 6px;
+    border-radius: 4px;
+    background-color: #2ED47A;
+}
+
+.points-active p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+}
+
+.LessonhomeworkGlavContentLeftUpProfile {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.imgProfile {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProfile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LessonhomeworkGlavContentLeftUpProfile h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.LessonhomeworkGlavContentLeftUpProfile p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.InGroup {
+    width: 252px;
+    height: 78.5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.InGroup .InGroupLeft {
+    width: 120px;
+    height: 64.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.InGroup .InGroupLeft h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: SamiBold;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.InGroup .InGroupLeft p {
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+}
+
+.InGroup .InGroupRight {
+    width: 120px;
+    height: 64.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.InGroup .InGroupRight h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: SamiBold;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.InGroup .InGroupRight p {
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+}
+
+.LessonhomeworkGlavContentLeftDown {
+    width: 276px;
+    height: 509px;
+    border-radius: 10px;
+    padding: 12px 0px 10px 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TitleSearchLessonHomework {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 252px;
+    height: 16px;
+}
+
+.TitleSearchLessonHomework h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold;
+}
+
+.TitleSearchLessonHomework p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #C2CFE0;
+    font-family: Regular;
+}
+
+.SearchLessonHomework label {
+    margin-top: 10px;
+    width: 252px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #C2CFE0;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 11px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.SearchLessonHomework label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+    font-size: 14.57px;
+    transition: .3s ease all;
+}
+
+.SearchLessonHomework label input {
+    width: 139px;
+    border: none;
+    background: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.SearchLessonHomework label input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.SearchLessonHomeworkContant {
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 276px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.SearchLessonHomeworkContant::-webkit-scrollbar {
+    display: none;
+}
+
+.SearchLessonHomeworkContant::-webkit-scrollbar-track {
+    display: none;
+}
+
+.SearchLessonHomeworkContant::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.SearchLessonHomeworkContantBox {
+    display: flex;
+    align-items: center;
+    width: 252px;
+    padding: 14px 14px 14px 10px;
+    border-radius: 6px;
+    background-color: #F8FAFC;
+    border: 0.5px solid #F1F4F8;
+    position: relative;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.SearchLessonHomeworkContantBox:hover {
+    background-color: #E4F4FD;
+}
+
+.SearchLessonHomework label:hover {
+    border: 1px solid #192A3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchLessonHomework label:hover input {
+    width: 100px;
+    color: #192A3E;
+}
+
+.SearchLessonHomework label:hover input::placeholder {
+    color: #192A3E;
+}
+
+.SearchLessonHomework label:hover span {
+    color: #192A3E;
+}
+
+.NuberZZ {
+    width: 12px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.NuberZZ p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.NameZZ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+    margin-right: 0;
+}
+
+.NameZZ h2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.NameZZ p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+
+}
+
+.ActiveZZ {
+    position: absolute;
+    top: -9px;
+}
+
+.pointsZZ {
+    width: 56px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pointsZZ p {
+    width: 57px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #323C47;
+}
+
+.pointsZZ span {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LessonhomeworkGlavContentRight {
+    width: 844px;
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.LessonhomeworkGlavContentRightTitle {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    align-items: center;
+}
+
+.LessonhomeworkGlavContentRightTitleLeft {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 49px;
+}
+
+.LessonhomeworkGlavContentRightTitleLeft h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+    margin: 0;
+    padding: 0;
+
+}
+
+.LessonhomeworkGlavContentRightTitleRight {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 22px;
+}
+
+.TeacherBlaBlaInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 22px;
+}
+
+.TeacherBlaBlaInfo div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
+
+.TeacherBlaBlaInfo div h2 {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Medium;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.TeacherBlaBlaInfo div p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #334D6E;
+}
+
+.TeacherBlaBlaSearch label {
+    width: 160px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #C2CFE0;
+    border-radius: 8px;
+    padding: 6px 10px;
+    gap: 10px;
+    background: #fff;
+    transition: .3s ease all;
+}
+
+.TeacherBlaBlaSearch label input {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    border: none;
+    background-color: none;
+    transition: .3s ease all;
+}
+
+.TeacherBlaBlaSearch label input::placeholder {
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.LessonhomeworkGlavContentRightContant {
+    width: 820px;
+    height: 657px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.LessonhomeworkGlavContentRightContant::-webkit-scrollbar {
+    display: none;
+}
+
+.LessonhomeworkGlavContentRightContant::-webkit-scrollbar-track {
+    display: none;
+}
+
+.LessonhomeworkGlavContentRightContant::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.LessonhomeworkGlavContentRightContantBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 820px;
+    height: 54px;
+    border-radius: 4px;
+    border: 0.5px solid #F1F4F8;
+    background-color: #F8FAFC;
+    padding: 20px 14px 20px 14px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.LessonhomeworkGlavContentRightContantBoxLeft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.NumSS p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #323C47;
+}
+
+.LessonSS p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #323C47;
+}
+
+.LessonhomeworkGlavContentRightContantBoxRight {
+    display: flex;
+    align-items: center;
+    gap: 33.5px;
+    width: 295px;
+}
+
+.DataSS p {
+    width: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+}
+
+.StatusSS {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 54px;
+    height: 19px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 4px;
+    gap: 4px;
+    background-color: #2ED47A;
+
+}
+
+.StatusSS span {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.StatusSS p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.finishedStat .points-active {
+    width: 47px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 6px 0px 6px;
+    border-radius: 4px;
+    background-color: #33A9FF;
+}
+
+.PoinrsSS {
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 4px;
+    transition: .5s ease all;
+}
+
+.PoinrsSS p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+}
+
+.ContantStatusSS {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.stPage_FinanceUP {
+    width: 1144px;
+    height: 176px;
+    display: flex;
+    gap: 24px;
+}
+
+.stPage_FinanceBoxOne {
+    width: 276px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceBoxOneTitle {
+    width: 252px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceBoxOneTitle p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxOneTitle span {
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    background: #2ED47A;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    font-family: Regular;
+    letter-spacing: 1%;
+    color: #fff;
+}
+
+
+.stPage_FinanceBoxOnetext {
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+    height: 126px;
+    gap: 6px;
+}
+
+.stPage_FinanceBoxOnetext div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stPage_FinanceBoxOnetext div h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxOnetext div p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxTwo {
+    width: 365px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceBoxTwoContant {
+    display: flex;
+    gap: 24px;
+
+}
+
+.stPage_FinanceBoxTwoLeftTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 341px;
+    height: 16px;
+}
+
+.stPage_FinanceBoxTwoLeftTitle p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxTwoRight {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.stPage_FinanceBoxTwoRightUp {
+    width: 177px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.stPage_FinanceBoxTwoRightUp div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+
+.stPage_FinanceBoxTwoRightUp div h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.stPage_FinanceBoxTwoRightUp div p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxTwoRightUp div span {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.stPage_FinanceBoxTwoRightDown {
+    width: 177px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    justify-content: flex-end;
+    border-top: 1px dashed var(--Colors-Light-gray-40, #E4EAF1)
+}
+
+.stPage_FinanceBoxTwoRightDown div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.stPage_FinanceBoxTwoRightDown div h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.stPage_FinanceBoxTwoRightDown div p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.stPage_FinanceBoxThree {
+    width: 455px;
+    height: 176px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.stPage_FinanceBoxThreeOne {
+    width: 221.5px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 2px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceBoxThreeOneTitle {
+    width: 192px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    transition: .3s ease all;
+}
+
+.stPage_FinanceBoxThreeOneTitle p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.stPage_FinanceBoxThreeOneTitle span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.stPage_FinanceBoxThreeOneContant h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #334D6E;
+    display: flex;
+    gap: 4px;
+    padding: 0;
+    margin: 0;
+    transition: .3s ease all;
+}
+
+.stPage_FinanceBoxThreeOneContant h2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: SamiBold;
+    transition: .3s ease all;
+}
+
+.stPage_Finance {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#Refund {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Refund p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #005EEB;
+}
+
+#AddExempl {
+    width: 134px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#AddExempl p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #005EEB;
+}
+
+#AddPayment {
+    width: 136px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #005EEB;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+
+#AddPayment p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #fff;
+}
+
+.stPage_FinanceDown {
+    width: 1144px;
+    height: 784px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    transition: .3s ease all;
+}
+
+.stPage_FinanceDownTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownTitleLeft {
+    width: 215px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stPage_FinanceDownTitleLeft .One {
+    width: 115px;
+    height: 32px;
+    border: 1px solid var(--Colors-Light-gray-30, #EBEFF5);
+    border-radius: 4px 0px 0px 4px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #707683;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceDownTitleLeft .Two {
+    width: 100px;
+    height: 32px;
+    border: 1px solid var(--Colors-Light-gray-30, #EBEFF5);
+    border-radius: 0px 4px 4px 0px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #707683;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceDownTitleRight {
+    width: 567px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.stPage_FinanceDownTitleRight button {
+    border: 1px solid var(--Colors-Light-gray-Light-gray, #C2CFE0);
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.stPage_FinanceDownTitleRight .Status {
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.stPage_FinanceDownTitleRight .Transaction {
+    width: 126px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.stPage_FinanceDownTitleRight .Type {
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.stPage_FinanceDownTitleRight .Date {
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.stPage_FinanceDownTitleRight .Course {
+    width: 101px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.stPage_FinanceDownTitleRight .Status span,
+.stPage_FinanceDownTitleRight .Transaction span,
+.stPage_FinanceDownTitleRight .Type span,
+.stPage_FinanceDownTitleRight .Date span,
+.stPage_FinanceDownTitleRight .Course span {
+    font-size: 12px;
+    color: #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stPage_FinanceDownTitleRight .Status p,
+.stPage_FinanceDownTitleRight .Transaction p,
+.stPage_FinanceDownTitleRight .Type p,
+.stPage_FinanceDownTitleRight .Date p,
+.stPage_FinanceDownTitleRight .Course p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+}
+
+.stPage_FinanceDownTitleRight div {
+    position: relative;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu {
+    position: absolute;
+    top: 42px;
+    width: 167px;
+    height: auto;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu button {
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #E4EAF1;
+    border-radius: 0;
+}
+
+.BoxWW {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 91px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    background-color: #2ED47A;
+}
+
+.BoxWW p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: flex;
+    align-items: center;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWW span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+.BoxWWSec {
+    width: 63px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    background-color: #F7685B;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.BoxWWSec p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: flex;
+    align-items: center;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWWSec span {
+    color: #fff;
+}
+
+.BoxWWPlus {
+    width: 79px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    background-color: #2ED47A;
+}
+
+.BoxWWPlus p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWWPlus span {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxWWMinus {
+    width: 70px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    background-color: #33A9FF;
+}
+
+.BoxWWMinus p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWWMinus span {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxWWClose {
+    width: 97px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    background-color: #F7685B;
+}
+
+.BoxWWClose p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWWClose span {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxWWSerMinus {
+    width: 70px;
+    height: 19px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    background-color: #90A0B7;
+}
+
+.BoxWWSerMinus p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu .BoxWWSerMinus span {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stPage_FinanceDownTitleRight div .ind {
+    width: 223px;
+    height: 131px;
+}
+
+.stPage_FinanceDownContant {
+    display: flex;
+    flex-direction: column;
+}
+
+.stPage_FinanceDownContant .TableUp {
+    width: 1120px;
+    height: 24px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 4px 6px;
+    gap: 2px;
+    border-bottom: 1px solid #F1F4F8;
+}
+
+.stPage_FinanceDownContant .TableUp .nom {
+    width: 60px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .ID {
+    width: 87px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .Transaction {
+    width: 116px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .Amount {
+    width: 123px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .Type {
+    width: 79px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .Course {
+    width: 166px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.stPage_FinanceDownContant .TableUp .Comment {
+    width: 349px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp .Date {
+    width: 68px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stPage_FinanceDownContant .TableUp div p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold;
+}
+
+.TableDown {
+    width: 1120px;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.TableDown::-webkit-scrollbar {
+    display: none;
+}
+
+.TableDown::-webkit-scrollbar-track {
+    display: none;
+}
+
+.TableDown::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.TableDownBox {
+    display: flex;
+    width: 1120px;
+    height: 60px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid var(--Colors-Light-gray-30, #EBEFF5);
+    cursor: pointer;
+}
+
+.TableDownBox .First {
+    display: flex;
+    gap: 10px;
+}
+
+.TableDownBox .First .Number {
+    width: 11px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.TableDownBox .First .Number p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+}
+
+.TableDownBox .First .NumberSecond {
+    width: 32px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.TableDownBox .First .NumberSecond span {
+    font-size: 20px;
+    color: #F7685B;
+}
+
+.TableDownBox .Second {
+    width: 80px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.TableDownBox .Second p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+}
+
+.Third {
+    width: 108px;
+    height: 19px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ActiveWW {
+    width: 79px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    background-color: #2ED47A;
+}
+
+.ActiveWW p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+}
+
+.ActiveWW span {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.TableDownBox .Four {
+    width: 115px;
+    height: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.TableDownBox .Four p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.TableDownBox .Five {
+    width: 71px;
+    height: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.TableDownBox .Five p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.TableDownBox .Six {
+    width: 152px;
+    height: 19px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TableDownBox .Six p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.TableDownBox .Seven {
+    width: 340px;
+    height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: 'ellipsis';
+}
+
+.TableDownBox .Seven p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #334D6E;
+}
+
+.TableDownBox .Eight {
+    width: 60px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #334D6E;
+}
+
+.TableDownBox .Nine {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableDownBox .Nine span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #90A0B7;
+}
+
+.DropdownContentAZAZA {
+    margin-top: 0px;
+    width: 100%;
+    min-height: 97px;
+    border: 1px solid var(--Colors-Light-gray-Light-gray, #C2CFE0);
+    border-top: 0;
+    background-color: #fff;
+    padding: 20px 10px 12px 10px;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+}
+
+.activeNet {
+    background: #E4F4FD;
+    border: 1px solid #C2CFE0;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.LEssonDrop {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.LEssonDropTitle {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 32px;
+    justify-content: center;
+}
+
+.LEssonDropTitle h2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.LEssonDropTitle p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #334D6E;
+}
+
+.LEssonDropFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LEssonDropFooterLeft {
+    display: flex;
+    align-items: center;
+}
+
+.LEssonDropFooterLeft p {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #33A9FF;
+}
+
+.LEssonDropFooterLeft span {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #33A9FF;
+}
+
+.LEssonDropFooterRight {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.LEssonDropFooterRightOne {
+    display: flex;
+    align-items: center;
+}
+
+.LEssonDropFooterRightOne p,
+.LEssonDropFooterRightTwo p {
+    margin-top: 3px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.LEssonDropFooterRightOne span,
+.LEssonDropFooterRightTwo span {
+    font-size: 14px;
+    color: #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LEssonDropFooterRightTwo {
+    display: flex;
+    align-items: center;
+}
+
+.LEssonDropFooterRightThree {
+    display: flex;
+    align-items: center;
+}
+
+.LEssonDropFooterRightThree {
+    width: 91px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2ED47A;
+    gap: 5px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 4px;
+}
+
+.LEssonDropFooterRightThree p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}
+
+.LEssonDropFooterRightThree span {
+    margin-top: -2px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExDropContant {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.ExDropContantOne {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ExDropContantOneTitl {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ExDropContantOneTitl p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+
+.ExDropContantOneContant {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ExDropContantOneContant p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.ExDropContantOneContant span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #334D6E;
+}
+
+.LeftObshExp {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.One.activeAll {
+    border: 1px solid #005EEB;
+    color: #005EEB;
+}
+
+
+.Two.activePay {
+    border: 1px solid #005EEB;
+    color: #005EEB;
+}
+
+.History-Stud {
+    display: flex;
+    padding: 0 20px;
+    gap: 24px;
+}
+
+.History-Stud-Left-Top {
+    width: 276px;
+    height: 125.5px;
+    border-radius: 10px;
+    padding: 10.5px 12px 12px 12px;
+    background-color: #fff;
+}
+
+.History-Stud-Left-Top-Title {
+    display: flex;
+    align-items: flex-end;
+    width: 252px;
+    height: 19px;
+    justify-content: space-between;
+}
+
+.History-Stud-Left-Top-Title p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: SamiBold !important;
+    display: flex;
+    align-items: flex-end;
+}
+
+.History-Stud-Left-Top-Title span {
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    background-color: #2ED47A;
+}
+
+.History-Stud-Left-Top-Title span p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #fff;
+}
+
+.History-Stud-Left-Top-Profile {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.History-Stud-Left-Top-Profile-Right {
+    display: flex;
+    flex-direction: column;
+}
+
+.History-Stud-Left-Top-Profile-Right h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.History-Stud-Left-Top-Profile-Right p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.History-Stud-Left-Top-Footer {
+    width: 252px;
+    height: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.History-Stud-Left-Top-Footer p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #C2CFE0;
+}
+
+.History-Stud-Left-Down {
+    width: 276px;
+    height: 388px;
+    border-radius: 10px;
+    padding: 12px 0px 10px 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.History-Stud-Left-Down-Title {
+    width: 276px;
+    height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 12px 0px 12px;
+}
+
+.History-Stud-Left-Down-Title p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.History-Stud-Left-Down-Content {
+    width: 276px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.History-Stud-Left-Down-Content-Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 252px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 14px 14px 14px 10px;
+    border: 0.5px solid #F1F4F8;
+    background-color: #F8FAFC;
+    cursor: pointer;
+}
+
+.History-Stud-Left-Down-Content-Box-Left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.History-Stud-Left-Down-Content-Box-Left p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.History-Stud-Left-Down-Content-Box-Left h2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.History-Stud-Left-Down-Content-Box-Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.History-Stud-Left-Down-Content-Box-Right p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #323C47;
+}
+
+
+.History-Stud-Left-Down-Content-Box-Right span {
+    font-size: 16px;
+    color: #323C47;
+}
+
+.History-Stud-Right {
+    width: 844px;
+    height: 723px;
+    border-radius: 10px;
+    padding: 12px 0px 12px 0px;
+    background-color: #fff;
+}
+
+.History-Stud-Right-Title {
+    width: 844px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 12px 0px 12px;
+}
+
+.History-Stud-Right-Title-Left p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #192A3E;
+}
+
+.History-Stud-Right-Title-Right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.History-Stud-Right-Title-Right button {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #C2CFE0;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.History-Stud-Right-Title-Right button p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+}
+
+.History-Stud-Right-Title-Right button span {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+}
+
+.History-Stud-Right-Title-Right label {
+    width: 160px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #C2CFE0;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.History-Stud-Right-Title-Right label input {
+    width: 80px;
+    height: 100%;
+    border: none;
+    background: none;
+}
+
+.History-Stud-Right-Title-Right label input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Regular;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+}
+
+.History-Stud-Right-Contant {
+    width: 844px;
+    height: 604px;
+    padding: 10px 12px 0px 12px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.History-Stud-Right-Contant-Box {
+    width: 820px;
+    height: 98px;
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #EBEFF5;
+    display: flex;
+    align-items: center;
+}
+
+.History-Stud-Right-Contant-Box-Conainer {
+    width: 792px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 8px;
+    border-left: 1px solid #90A0B7;
+}
+
+.History-Stud-Right-Contant-Box-Name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 784px;
+    height: 16px;
+}
+
+.History-Stud-Right-Contant-Box-Name h2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: SamiBold;
+    padding: 0;
+    margin: 0;
+}
+
+.History-Stud-Right-Contant-Box-Name p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #C2CFE0;
+    padding: 0;
+    margin: 0;
+}
+
+.History-Stud-Right-Contant-Box-Comment {
+    width: 784px;
+    height: 32px;
+}
+
+.History-Stud-Right-Contant-Box-Comment p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+    padding: 0;
+    margin: 0;
+}
+
+.History-Stud-Right-Contant-Box-Date {
+    width: 784px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.History-Stud-Right-Contant-Box-Date p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #C2CFE0;
+    font-family: Regular;
+    padding: 0;
+    margin: 0;
+}
+
+.UserComments:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.UserComments:hover .UserComTitle span {
+    font-size: 15px;
+    color: #005EEB;
+}
+
+.UserComUp {
+    position: relative;
+}
+
+.DropdownMenuForDeleteCom {
+    top: 25px;
+    right: 0;
+    position: absolute;
+    width: 160px;
+    height: 65px;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0px 0px 7.4px 0px #00000066;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 6px;
+
+}
+
+.DropdownMenuForDeleteCom button {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 160px;
+    height: 32px;
+    padding: 16px 20px 16px 20px;
+    gap: 5px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(1) {
+    border-bottom: 1px solid #E4EAF1 !important;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(1) p {
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(1) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707683;
+    font-size: 14px;
+    transition: .3s ease all;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(2) p {
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #F7685B;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(2) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(1):hover {
+    background-color: #E0EDFF;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(1):hover p,
+.DropdownMenuForDeleteCom button:nth-child(1):hover span {
+    color: #005EEB;
+}
+
+.DropdownMenuForDeleteCom button:nth-child(2):hover {
+    background-color: #FEEEED;
+}
+
+.PayHistory:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.PayHistory:hover .UserComTitle span {
+    color: #005EEB;
+}
+
+.SSSSS p {
+    width: 60px;
+    height: 19px;
+    border-radius: 4px;
+    border: .5px solid #2ED47A;
+    color: #2ED47A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SearchLessonHomeworkContant .SearchLessonHomeworkContantBox.active {
+    background-color: #33A9FF;
+    border: none !important;
+}
+
+.SearchLessonHomeworkContant .SearchLessonHomeworkContantBox.active p,
+.SearchLessonHomeworkContant .SearchLessonHomeworkContantBox.active h2 {
+    color: #fff;
+}
+
+.SearchLessonHomeworkContant .SearchLessonHomeworkContantBox.finished .ActiveZZ .points-active {
+    background-color: #33A9FF;
+}
+
+.LessonhomeworkGlavContentRightContantBox:hover {
+    border: .5px solid #F1F4F8;
+    background-color: #E4F4FD;
+}
+
+.LessonhomeworkGlavContentRightContantBox:hover p {
+    color: #192A3E;
+}
+
+.LessonhomeworkGlavContentRightContantBox:hover .StatusSS p {
+    color: white;
+}
+
+.PoinrsSS:hover {
+    background-color: #FFB946;
+}
+
+
+.PoinrsSS span {
+    color: #FFB946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transition: .3s all ease;
+}
+
+.PoinrsSS:hover span {
+    color: white;
+}
+
+.SearchLessonHomework input:focus {
+    outline: none;
+}
+
+.SearchLessonHomework label.active {
+    border: 1px solid #005EEB !important;
+
+}
+
+.SearchLessonHomework label.active:hover {
+    border: 1px solid #005EEB !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.SearchLessonHomework label.active:hover span {
+    color: #005EEB;
+}
+
+.SearchLessonHomework label.active:hover input {
+    width: 139px;
+}
+
+.SearchLessonHomework label.active:hover input::placeholder {
+    color: #005EEB;
+}
+
+.SearchLessonHomework label.active span {
+    color: #005EEB;
+}
+
+
+.SearchLessonHomework label.active input {
+    width: 139px;
+}
+
+.SearchLessonHomework label.active input::placeholder {
+    color: #005EEB;
+}
+
+.TeacherBlaBlaSearch label span {
+    color: #90A0B7;
+    font-size: 14.57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.TeacherBlaBlaSearch label:hover {
+    border: 1px solid #192A3E !important;
+}
+
+
+.TeacherBlaBlaSearch label:hover span {
+    color: #192A3E;
+}
+
+.TeacherBlaBlaSearch label:hover input::placeholder {
+    color: #192A3E;
+}
+
+.TeacherBlaBlaSearch label.active {
+    border: 1px solid #005EEB !important;
+}
+
+.TeacherBlaBlaSearch label.active input::placeholder {
+    color: #005EEB;
+}
+
+.TeacherBlaBlaSearch label.active span {
+    color: #005EEB;
+}
+
+.RightStudNav a {
+    text-decoration: none;
+}
+
+#AddLesson:hover {
+    background: #E0EDFF;
+}
+
+#Add:hover,
+#dot:hover,
+#Refund:hover,
+#AddExempl:hover {
+    background: #E0EDFF;
+}
+
+#Individual:hover,
+#Homework:hover,
+#AddPayment:hover {
+    background-color: #257AFD;
+}
+
+
+.stPage_FinanceBoxOne:hover,
+.stPage_FinanceBoxTwo:hover,
+.stPage_FinanceBoxThreeOne:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+
+.stPage_FinanceBoxThreeOne:hover .stPage_FinanceBoxThreeOneTitle p {
+    color: #707683;
+}
+
+.stPage_FinanceBoxThreeOne:hover .stPage_FinanceBoxThreeOneTitle span {
+    color: #005EEB;
+}
+
+.stPage_FinanceBoxThreeOne:hover .stPage_FinanceBoxThreeOneContant h2,
+.stPage_FinanceBoxThreeOne:hover .stPage_FinanceBoxThreeOneContant span {
+    color: #192A3E;
+}
+
+.LessonhomeworkGlavContentRight,
+.LessonhomeworkGlavContentLeftUp,
+.LessonhomeworkGlavContentLeftDown,
+.TableDownBox,
+.TableDownBox .Eight,
+.TableDownBox .Seven p {
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+
+.LessonhomeworkGlavContentRight:hover,
+.LessonhomeworkGlavContentLeftUp:hover,
+.LessonhomeworkGlavContentLeftDown:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.TableDownBox:hover {
+    background-color: #E4F4FD;
+}
+
+.TableDownBox:hover .TableDownBox .Seven p,
+.TableDownBox:hover .TableDownBox .Eight {
+    color: #192A3E;
+}
+
+.stPage_FinanceDownTitleLeft .One:hover,
+.stPage_FinanceDownTitleLeft .Two:hover {
+    color: #192A3E;
+    border: 1px solid #707683;
+}
+
+.One.activeAll:hover,
+.Two.activePay:hover {
+    border: 1px solid #005EEB;
+    color: #005EEB;
+}
+
+.stPage_FinanceDownTitleRight button:hover {
+    border: 1px solid #192A3E;
+}
+
+.stPage_FinanceDownTitleRight button:hover p,
+.stPage_FinanceDownTitleRight button:hover span {
+    color: #192A3E;
+}
+
+.stPage_FinanceDownTitleRight div .dropdown-menu button {
+    color: #707683;
+}
+
+.stPage_FinanceDown:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+}
+
+.FixButtonDropdownSms {
+    width: 300px;
+    height: 493px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px #00000033;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 35px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1000;
+}
+
+.FixButtonDropdownSmsClose {
+    border: none !important;
+    background: none !important;
+    width: 24px !important;
+    height: 24px !important;
+    color: #C2CFE0 !important;
+    font-size: 16px !important;
+    padding: 0 !important;
+    margin: 0;
+    position: absolute !important;
+    top: 13px;
+    right: 15px;
+}
+
+.CoommentNewSms textarea {
+    width: 280px;
+    height: 300px;
+    border: 1px solid #EBEFF5;
+    border-radius: 8px;
+    padding: 14px 4px 6px 14px;
+    resize: none;
+    font-family: Regular;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    margin-bottom: 10px;
+}
+
+.SendModalSmsSend {
+    width: 280px;
+    height: 38px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005EEB;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.SendModalSmsSend:hover {
+    background-color: #257AFD;
+}
+
+.SendModalSmsSend p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    font-weight: 500;
+    color: #fff;
+}
+
+.SendModalSmsSend span {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.PovovrotSendSms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.MejduButtonovContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    width: 212px;
+    height: 27px;
+    overflow-y: auto;
+}
+
+.MejduButtonovContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.MejduButtonovContainer::-webkit-scrollbar-track {
+    display: none;
+}
+
+.MejduButtonovContainer::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.PovovrotSendSmsSurname {
+    min-width: 130px;
+    height: 27px;
+    border: 1px solid #005EEB;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #005EEB;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.PovovrotSendSmsSurname:hover {
+    background-color: #E0EDFF;
+}
+
+.PovovrotSendSmsLight,
+.PovovrotSendSmsRight {
+    width: 27px;
+    height: 27px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #005EEB;
+    color: #005EEB;
+    font-size: 14px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.PovorotSendSmsLight:hover,
+.PovorotSendSmsRight:hover {
+    background-color: #E0EDFF;
+}
+
+.PovovrotSendSmsSubject {
+    min-width: 121px !important;
+    height: 27px;
+    border-radius: 8px;
+    border: 1px solid #005EEB;
+    color: #005EEB;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.PovovrotSendSmsSubject:hover {
+    background-color: #E0EDFF;
+}
+
+.RadioOptionContainer {
+    width: 280px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.RadioOptionContainerBox label {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #EBEFF5;
+    border-radius: 6px;
+    padding: 0px 12px 0px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.RadioOptionContainerBox label:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+    border: 1px solid var(--Colors-Light-gray-30, #EBEFF5);
+}
+
+.RadioOptionContainerBox label:hover p {
+    color: #334D6E;
+}
+
+.RadioOptionContainerBox label input:hover {
+    color: #707683;
+    border: 1px solid #707683;
+}
+
+.RadioOptionContainerBox label p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+    display: flex;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.RadioOptionContainerBox label input {
+    margin: 0;
+    color: #334D6E;
+    border: 1px solid #334D6E;
+    transition: .3s ease all;
+}
+
+.actionButton {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #005EEB;
+    border-radius: 8px;
+    width: 280px;
+    height: 37px;
+    gap: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.actionButton:hover {
+    background-color: #E0EDFF;
+}
+
+.actionButton p {
+    font-size: 12px !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-weight: 500 !important;
+    font-family: Medium !important;
+    color: #005EEB !important;
+}
+
+
+.actionButton span {
+    font-size: 14px;
+    color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeradio {
+    border: 1px solid #005EEB;
+    width: 279px;
+    border-radius: 6px;
+}
+
+.activeradio p {
+    color: #334D6E;
+}

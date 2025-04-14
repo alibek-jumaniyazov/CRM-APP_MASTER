@@ -1,0 +1,533 @@
+.ReportsContainer {
+    width: 1184px;
+    height: 1655px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ReportsNav {
+    width: 1184px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.ReportsNav a {
+    color: #90A0B7;
+    font-family: Medium;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #C2CFE0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ReportsNav a:nth-child(1) {
+    width: 100px;
+    height: 36px;
+}
+
+.ReportsNav a:nth-child(2) {
+    width: 102px;
+    height: 36px;
+}
+
+.ReportsNav a:nth-child(3) {
+    width: 100px;
+    height: 36px;
+}
+
+.active_report {
+    color: #005EEB !important;
+    border-bottom: 2px solid #005EEB !important;
+}
+
+.ClientsContainer {
+    display: flex;
+    width: 1184px;
+    height: 1570px;
+    padding: 10px 20px;
+    gap: 24px;
+}
+
+.ClientsContainerLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 402px;
+    height: 389px;
+}
+
+.ClientsContainerLeft_Up {
+    width: 402px;
+    height: 118px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.ClientsContainerLeft_Up_nav span {
+    stroke: #90A0B7;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Up_nav span svg {
+    width: 14px;
+    height: 14px;
+}
+
+.ClientsContainerLeft_Up:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Up:hover .ClientsContainerLeft_Up_nav span {
+    stroke: #005EEB;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Up_nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 12px;
+    gap: 4px;
+}
+
+.ClientsContainerLeft_Up_nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.ClientsContainerLeft_Up_nav p {
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.ClientsContainerLeft_Up_Contant {
+    width: 402px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.ClientsContainerLeft_Up_Contant div {
+    width: 114px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClientsContainerLeft_Up_Contant div h2 {
+    font-family: Bold;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.ClientsContainerLeft_Up_Contant div p {
+    font-family: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.ClientsContainerLeft_Down {
+    width: 402px;
+    height: 256px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.ClientsContainerLeft_Down:hover {
+    box-shadow: 0px 0px 7.4px 0px #0000001F;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Down:hover .ClientsContainerLeft_Down_Nav div:nth-child(1) span {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: #005EEB !important;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Down_Nav {
+    width: 378px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ClientsContainerLeft_Down_Nav div:nth-child(1) {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ClientsContainerLeft_Down_Nav div:nth-child(1) p {
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.ClientsContainerLeft_Down_Nav div:nth-child(1) span {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: #90A0B7;
+    transition: .3s ease all;
+}
+
+.ClientsContainerLeft_Down_Contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ClientsContainerLeft_Down_Contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+
+.ChartClients_One {
+    display: flex;
+    width: 266px;
+    height: 36px;
+    background-color: #E4EAF1;
+    border-radius: 8px;
+    position: relative;
+}
+
+.ChartClients_One span {
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: width 0.5s ease;
+}
+
+.ChartClients_One span:nth-child(1) {
+    border-radius: 8px;
+}
+
+.ChartClients_One span:nth-child(3) {
+    border-radius: 8px;
+}
+
+
+
+.info-box {
+    width: 110px;
+    height: 29px;
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    box-shadow: 0px 0px 15px 0px #00000033;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.info-box:nth-child(2) {
+    width: 70px;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.ChartClients_One span:hover+.info-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ChartClients_One_Text {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.ChartClients_One_Text_Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChartClients_One_Text_Left span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+
+.ChartClients_One_Text_Left:nth-child(1) span {
+    background-color: #005EEB;
+}
+
+.ChartClients_One_Text_Left:nth-child(2) span {
+    background-color: #E4EAF1;
+}
+
+.ChartClients_One_Text_Left h2 {
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.ChartClients_One_Text_Left p {
+    font-family: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.ClientsContainerLeft_Down_Footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 16px;
+}
+
+.ClientsContainerLeft_Down_Footer div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.ClientsContainerLeft_Down_Footer div h2 {
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.ClientsContainerLeft_Down_Footer div p {
+    font-family: Medium;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.CharDonut {
+    width: 327px;
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.CientsContainerMidl {
+    width: 347px;
+    height: 398px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 30px 10px;
+}
+
+.CientsContainerMidl_nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 32px;
+}
+
+.CientsContainerMidl_nav div {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.CientsContainerMidl_nav div p {
+    font-family: SamiBold;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.CientsContainerMidl_nav div span {
+    stroke: #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CientsContainerMidl_nav div span svg {
+    width: 14px;
+    height: 14px;
+}
+
+.CharDonutLables {
+    width: 327px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+}
+
+.CharDonutLables_Content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    width: 137px;
+    height: 14px;
+}
+
+.CharDonutLables_Content span {
+    font-family: Medium;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+}
+
+.BlyaChartText {
+    width: 57px;
+    height: 14px;
+}
+
+.BlyaChartTextBox {
+    justify-content: flex-start;
+    padding: 0 96px;
+}
+
+.HoverChar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 219px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px #00000033;
+}

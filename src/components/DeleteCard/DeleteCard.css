@@ -1,0 +1,95 @@
+.RemuveCard {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.RemuveCardModal {
+    width: 317px;
+    height: 185px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 10px 15px 10px;
+}
+
+.RemuveCardModalCloseButton {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-size: 24px;
+    color: #C2CFE0;
+}
+
+.RemuveCardModalTitle {
+    display: flex;
+    height: 316px;
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+}
+
+.RemuveCardModalTitle h2 {
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.RemuveCardModalTitle p {
+    font-size: 14px;
+    line-height: 18.9px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    padding: 0;
+    margin: 0;
+}
+
+.RemuveCardModalButtons {
+    width: 268px;
+    min-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.RemuveCardModalButtons button {
+    width: 128px;
+    height: 32px !important;
+    border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90A0B7);
+    background-color: #FFFFFF;
+    color: #90A0B7;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-family: Medium !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+}
+
+#Remuve {
+    background-color: #F7685B;
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-family: Medium !important;
+}

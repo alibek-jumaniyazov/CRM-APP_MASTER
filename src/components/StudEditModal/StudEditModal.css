@@ -1,0 +1,409 @@
+.StudEditModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1002;
+}
+
+.StudEditModalContantOne {
+    width: 550px;
+    height: 509px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 25px 20px 25px;
+}
+
+.StudEditModalContantOneTitle {
+    width: 440px;
+    height: 74px;
+    text-align: center;
+}
+
+.StudEditModalContantOneTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+    margin-bottom: 5px;
+}
+
+.StudEditModalContantOneTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.StudEditModalContantOneContant {
+    width: 500px;
+    height: 293px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.StudEditModalContantOneContant label {
+    width: 212px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.StudEditModalContantOneContant label p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.RenderDrop button,
+.Change button {
+    width: 212px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+.RenderDrop button p,
+.Change button p {
+    color: #90A0B7;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}
+
+.RenderDrop button span,
+.Change button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+    font-size: 14px;
+}
+
+.RenderDrop,
+.Change {
+    position: relative;
+}
+
+.RenderDropContent,
+.ChangeDropButContent {
+    position: absolute;
+    top: 55px;
+    width: 212px;
+    min-height: 65px;
+    max-height: 263px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 0px 7.4px 0px #00000066;
+    z-index: 100;
+}
+
+.RenderDropContent div {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+    border-bottom: 1px solid #E4EAF1;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 20px 16px 20px;
+}
+
+.RenderDropContent div:nth-child(2) {
+    border: none;
+}
+
+.ChangeDropButContent div {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E4EAF1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+    padding: 16px 20px 16px 20px;
+}
+
+.ChangeDropButContent div:nth-child(1) span {
+    width: 60px;
+    height: 19px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid #2ED47A;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #2ED47A;
+    font-family: Regular;
+}
+
+.ChangeDropButContent div:nth-child(2) span {
+    width: 123px;
+    height: 19px;
+    border: .5px solid #FFB946;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #FFB946;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangeDropButContent div:nth-child(3) span {
+    width: 94px;
+    height: 19px;
+    border: .5px solid #F7685B;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #F7685B;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangeDropButContent div:nth-child(4) span {
+    width: 111px;
+    height: 19px;
+    border: .5px solid #33A9FF;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #33A9FF;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangeDropButContent div:nth-child(5) span {
+    width: 45px;
+    height: 19px;
+    border: .5px solid #192A3E;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #192A3E;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangeDropButContent div:nth-child(6) span {
+    width: 58px;
+    height: 19px;
+    border: .5px solid #33A9FF;
+    background: #33A9FF;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #fff;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StudEditModalContantOneButton {
+    width: 520px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 13px;
+    margin-top: 25px;
+}
+
+.StudEditModalContantOneButton button {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    border: none;
+}
+
+.StudEditModalContantOneButton button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    color: #90A0B7;
+}
+
+.StudEditModalContantOneButton button:nth-child(2) {
+    background: #005EEB;
+    color: #fff;
+}
+
+.StudEditModalContantOneConfim {
+    width: 317px;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 10px 15px 10px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+}
+
+.StudEditModalContantOneConfimTitle {
+    height: 89px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.StudEditModalContantOneConfimTitle h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.StudEditModalContantOneConfimTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.StudEditModalContantOneConfimButton {
+    display: flex;
+    gap: 12px;
+    width: 268px;
+    height: 60px;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.StudEditModalContantOneConfimButton button {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    border: none;
+}
+
+.StudEditModalContantOneConfimButton button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    color: #90A0B7;
+    background: none;
+}
+
+.StudEditModalContantOneConfimButton button:nth-child(2) {
+    color: #fff;
+    background: #005EEB;
+}
+
+.StudEditModalContantOneConfim .ConFimModalAddStudClose {
+    font-size: 20px;
+}
+
+.StudEditModalContantOneConfimSec {
+    width: 320px;
+    height: 162.75px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 11.13px;
+    padding: 25px 12px 15px 12px;
+    gap: 10px;
+}
+
+.StudEditModalContantOneConfimSecTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.StudEditModalContantOneConfimSec h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.StudEditModalContantOneConfimSec p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}

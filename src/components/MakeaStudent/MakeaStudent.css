@@ -1,0 +1,1417 @@
+.ModalMakeContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1100; */
+}
+
+.ModalAddStud {
+    width: 550px;
+    min-height: 421px;
+    max-height: 461px;
+    background-color: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    padding: 50px 25px 20px 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.EsheOdin {
+    width: 440px !important;
+}
+
+.ModalAddStudTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.ModalAddStudTitle h2 {
+    font-size: 25px;
+    font-family: SamiBold;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    color: #334D6E;
+    margin: 0;
+    padding: 0;
+}
+
+.ModalAddStudTitle p {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.ModalAddStudSelect {
+    width: 440px;
+    height: 148px;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px 14px;
+}
+
+.ModalAddStudSelect label {
+    position: relative;
+    width: 213px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-start;
+
+}
+
+.ModalAddStudSelect label p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.ModalAddStudSelect label input {
+    width: 213px;
+    height: 45px;
+    padding: 14.5px 20px;
+    outline: none;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    color: #707683;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}
+
+.ModalAddStudSelect label input::placeholder {
+    color: #707683;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}
+
+.ModalAddStudSelect label .ModalAddStudSelectButton {
+    width: 213px;
+    height: 45px;
+    padding: 14.5px 20px;
+    outline: none;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    color: #707683;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ModalAddStudSelect label .ModalAddStudSelectButton p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.ModalAddStudSelect label .ModalAddStudSelectButton span {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+}
+
+.ModalAddStudSelectDropDown {
+    width: 250px;
+    height: 270.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7.7px 0px #00000066;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 500;
+}
+
+.ModalAddStudLessonSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.ModalAddStudLessonSelectCheck {
+    width: 440px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ModalAddStudLessonSelectCheckTitle {
+    font-size: 10px !important;
+    color: #334D6E !important;
+    line-height: 13.5px !important;
+    letter-spacing: 1% !important;
+    font-weight: 500 !important;
+    font-family: Medium !important;
+    text-align: start;
+}
+.MuiFormControl-root{
+    width: 100% !important;
+
+}
+
+.ModalAddStudLessonSelectCheckGlavBox {
+    display: flex !important;
+    gap: 40px !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label {
+    /* width: 198.71px !important; */
+    height: 40px !important;
+    margin: 0 !important;
+    display: flex !important;
+    gap: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label input {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label .css-hyxlzm {
+    width: 20px !important;
+    height: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label .css-hyxlzm svg {
+    width: 15.83px !important;
+    height: 15.83px !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label .css-ahj2mt-MuiTypography-root {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-family: Regular !important;
+    color: #707683 !important;
+}
+
+.ModalAddStudLessonSelectCheck-control-label .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #005EEB !important;
+}
+
+.ModaAddStudButtons {
+    margin-top: 24px;
+    width: 500px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 13px;
+}
+
+.ModaAddStudButtons button {
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.ModaAddStudButtonsCancel {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #90A0B7;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #90A0B7;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+}
+
+.ModaAddStudButtonsCancel:hover {
+    border: 1px solid #192A3E;
+    color: #192A3E;
+}
+
+.ModaAddStudButtonsNext {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #005EEB;
+    border-radius: 8px;
+    background-color: #005EEB;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+}
+
+.ModaAddStudButtonsNext:hover {
+    background-color: #257AFD;
+}
+
+
+
+.errorSelectMMMBox {
+    margin-top: 24px;
+    width: 100%;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorSelectMMM {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Regular;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #F7685B;
+}
+
+.MakeNewStudentContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.MakeNewStudentContainerBox {
+    width: 550px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    padding: 50px 25px 20px 25px;
+    z-index: 1100;
+}
+
+.MakeNewStudentTitle {
+    /* width: 245px; */
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.MakeNewStudentTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: SamiBold;
+    color: #334D6E;
+}
+
+.MakeNewStudentTitle p {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.MakeNewStudentSecondTitle {
+    width: 286px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.MakeNewStudentSecondTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+}
+
+.MakeNewStudentSecondTitle p span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.MakeNewStudentButtonsBox {
+    width: 440px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 14px;
+    margin-top: 24px;
+}
+
+.MakeNewStudentButtonsBox label {
+    width: 213px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.MakeNewStudentButtonsBox label p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.MakeNewStudentButtonsBox label button {
+    width: 213px;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.MakeNewStudentButtonsBox label button p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.MakeNewStudentButtonsBox label button span {
+    width: 20px;
+    height: 20px;
+    font-size: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.MakeNewStudentButtonsBox label .DropDuwnMakeModalAddStudInputBox {
+    width: 213px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+}
+
+.MakeNewStudentButtonsBox label .DropDuwnMakeModalAddStudInputBox span {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.MakeNewStudentButtonsBox label .DropDuwnMakeModalAddStudInputBox input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+.DropDuwnMakeModalAddStudSelectContainer {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 1000;
+    width: 213px;
+    height: 164px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7.7px 0px #00000066;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.DropDuwnMakeModalAddStudSelect button {
+    width: 100% !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    padding: 16px 20px 16px 20px !important;
+    border: none !important;
+    border-bottom: 1px solid #E4EAF1 !important;
+    border-radius: 0 !important;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Regular;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+}
+
+.MakeNewStudentCheckBox {
+    margin-top: 6px;
+    width: 440px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MakeNewStudentCheckBoxCheck .css-i4bv87-MuiSvgIcon-root {
+    width: 14.17px !important;
+    height: 14.17px !important;
+
+}
+
+.MakeNewStudentCheckBoxCheck .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #005EEB;
+}
+
+.MakeNewStudentCheckBoxCheck .css-ahj2mt-MuiTypography-root {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-family: Regular !important;
+    color: #707683 !important;
+}
+
+.MakeNewStudentInformation {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.MakeNewStudentInformationUp,
+.MakeNewStudentInformationDown {
+    width: 440px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.MakeNewStudentInformationUpOne,
+.MakeNewStudentInformationUpTwo,
+.MakeNewStudentInformationUpThree,
+.MakeNewStudentInformationDownOne,
+.MakeNewStudentInformationDownTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.MakeNewStudentInformationUpOne span,
+.MakeNewStudentInformationUpTwo span,
+.MakeNewStudentInformationUpThree span,
+.MakeNewStudentInformationDownOne span,
+.MakeNewStudentInformationDownTwo span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Medium;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+}
+
+.MakeNewStudentInformationUpOne span p,
+.MakeNewStudentInformationUpTwo span p,
+.MakeNewStudentInformationUpThree span p,
+.MakeNewStudentInformationDownOne span p,
+.MakeNewStudentInformationDownTwo span p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Medium;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    margin-left: 5px;
+}
+
+.MakeNewStudentButtonsBoxDownLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+#SrtepThreeMakeNewStudButBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 417px !important;
+}
+
+.MakeNewStudentButtonsBoxUp {
+    display: flex;
+    width: 100%;
+    gap: 14px;
+}
+
+.MakeNewStudentButtonsBoxDown {
+    display: flex;
+    width: 100%;
+    gap: 14px;
+}
+
+.MakeNewStudentButtonsBoxDownLeft {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker {
+    width: 213px !important;
+    min-height: 115px;
+    max-height: 115px;
+    overflow-y: auto;
+}
+
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker .react-datepicker__current-month,
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker .react-datepicker__navigation--previous,
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker .react-datepicker__navigation--next {
+    display: none;
+}
+
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker__header {
+    padding: 0;
+}
+
+.MakeNewStudentButtonsBoxDownRightDate .hidden-date {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.MakeNewStudentButtonsBoxDownRightDate .react-datepicker .react-datepicker__month {
+    height: 120px !important;
+    overflow: hidden;
+}
+
+.MakeNewStudentButtonsBoxDownRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SelectDaysRightDate {
+    margin-top: 7px;
+}
+
+.SelectDaysRightDate p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.MakeNewStudentButtonsBoxDownSecond {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    gap: 14px;
+}
+
+.NujenMargin {
+    margin-top: 14px;
+}
+
+.NujenMarginDown {
+    margin-bottom: 6px;
+}
+
+.MarginModaAddStudButtons {
+    margin-top: 70px !important;
+}
+
+.axaxaxaxax .css-dmmspl-MuiFormGroup-root label {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+}
+
+.ModalAddStudSelectButton .SuChAK {
+    font-size: 16px;
+}
+
+.ConFimModalAddStud {
+    width: 317px;
+    /* height: 194px; */
+    border-radius: 15px;
+    padding: 30px 10px 15px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ConFimModalAddStudTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 6px;
+}
+
+.ConFimModalAddStudTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: "SamiBold"!important;
+}
+
+.ConFimModalAddStudTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: "Regular"!important;
+    color: #90A0B7;
+}
+
+.ConFimModalAddStudClose {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    color: #C2CFE0;
+    z-index: 11000;
+    font-size: 20px;
+}
+
+.ConFimModalAddStudButtons {
+    width: 238px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    transition: .3s ease all;
+
+}
+
+.ConFimModalAddStudButtons button {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #90A0B7;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Medium;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+#YesConFimModalAddStudButtons {
+    background-color: #005EEB;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+
+.ConFimModalAddStudButtons button:nth-child(1):hover {
+    border: 1px solid var(--Colors-Normal-gray-Normal-gray, #334D6E);
+    background-color: #fff;
+    color: #334D6E;
+    transition: .3s ease all;
+
+}
+
+ 
+
+.ConFimModalAddStudButtons #YesConFimModalAddStudButtons:hover {
+    border: 1px solid var(--Colors-Normal-gray-Normal-gray, #257AFD);
+    background-color: #257AFD;
+    color: #FFF;
+    transition: .3s ease all;
+
+}
+
+.LastConFimModalAddStud {
+    width: 320px;
+    height: 162.75px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    border-radius: 11.13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.LastConFimModalAddStudTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 4.45px;
+    text-align: center;
+}
+
+.LastConFimModalAddStudTitle h2 {
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: "SamiBold"!important;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.LastConFimModalAddStudTitle p {
+    font-size: 12px;
+    line-height: 16.2px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-family: "Regular"!important;
+    color: #90A0B7;
+    padding: 0;
+    margin: 0;
+}
+
+.ConFimModalAddStudLogo {
+    width: 59.34px;
+    height: 59.34px;
+    border-radius: 50%;
+    background-color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConFimModalAddStudLogo span {
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupLessonAddStud {
+    width: 550px;
+    height: 691px;
+    border-radius: 15px;
+    padding: 50px 25px 20px 25px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    background-color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.GroupLessonAddStud::-webkit-scrollbar {
+    display: none;
+}
+
+.GroupLessonAddStud::-webkit-scrollbar-track {
+    display: none;
+}
+
+.GroupLessonAddStud::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.GroupLessonAddStudTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.GroupLessonAddStudTitle h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #334D6E;
+    padding: 0;
+    margin: 0;
+}
+
+.GroupLessonAddStudTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    padding: 0;
+    margin: 0;
+}
+
+.GroupLessonAddStudTitle span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #192A3E;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 15px;
+}
+
+.GroupLessonAddStudTitle span p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #192A3E;
+}
+
+.GroupLessonAddStudButtons {
+    width: 440px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 14px;
+    margin-top: 24px;
+}
+
+.GroupLessonAddStudButtons label {
+    width: 213px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}
+
+.GroupLessonAddStudButtons label button {
+    width: 213px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.GroupLessonAddStudButtons label button:hover {
+    border: 1px solid #323C47;
+}
+
+.GroupLessonAddStudButtons label button:hover p {
+    color: #323C47;
+}
+
+.GroupLessonAddStudButtons label button:hover span {
+    color: #323C47;
+}
+
+.GroupLessonAddStudButtons label button p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.GroupLessonAddStudButtons label p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.GroupLessonAddStudButtons label button span {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.GroupLessonAddStudPoiskSpisok {
+    width: 440px;
+    height: 276px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #EBEFF5;
+    padding: 0px 0px 14px 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.GroupLessonAddStudPoiskSpisok::-webkit-scrollbar {
+    width: 15px;
+    border: 1px solid #E4EAF1;
+    border-radius: 10px;
+}
+
+.GroupLessonAddStudPoiskSpisok::-webkit-scrollbar-track {
+    background: #F6FAFF;
+}
+
+.GroupLessonAddStudPoiskSpisok::-webkit-scrollbar-thumb {
+    background-color: #B0C2DA;
+    border-radius: 10px;
+    border: 3px solid #F6FAFF;
+}
+
+.SpisokGlavUpTable {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    border-bottom: 1px solid #EBEFF5;
+}
+
+.SpisokGlavUpTable span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SpisokGlavUpTable span p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.SpisokGlavUpTable .Group {
+    width: 162px;
+    height: 16px;
+}
+
+.SpisokGlavUpTable .Teacher {
+    width: 117px;
+    height: 16px;
+    margin: 0;
+}
+
+.SpisokGlavUpTable .Time {
+    width: 85px;
+    height: 16px;
+}
+
+.GroupLessonAddStudPoiskButton {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.GroupLessonAddStudPoiskButtonLabel.activesearch {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.GroupLessonAddStudPoiskButton label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #F3F4F7;
+    padding: 10px 30px 10px 30px;
+}
+
+.GroupLessonAddStudPoiskButton label input {
+    background: none;
+    border: none;
+    width: 152px;
+    height: 17px;
+}
+
+.SpisokGlavUpContant {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+.SpisokGlavUpTableContantBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    transition: .3s ease all;
+    cursor: pointer;
+    border: 0.5px solid transparent;
+}
+
+.SpisokGlavUpTableContantBox:hover {
+    background-color: #E4F4FD;
+    border: 0.5px solid var(--Colors-Light-gray-20, #F1F4F8);
+}
+
+.SpisokGlavUpTableContantBox p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.SpisokGlavUpTableContantBoxGroup {
+    width: 163px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.SpisokGlavUpTableContantBoxteach {
+    width: 120px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.SpisokGlavUpTableContantBoxTime {
+    width: 85px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.SpisokGlavUpTableContantBoxInfo {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.SpisokGlavUpTableContantBoxCheck {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.SpisokGlavUpTableContantBoxCheckRadio {
+    width: 15.83px !important;
+    height: 15.83px !important;
+
+}
+
+.SpisokGlavUpTableContantBoxInfo button {
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #C2CFE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeContantBox1,
+.activeContantBox2,
+.activeContantBox3,
+.activeContantBox4,
+.activeContantBox5,
+.activeContantBox6,
+.activeContantBox7,
+.activeContantBox8,
+.activeContantBox9,
+.activeContantBox10 {
+    background-color: #E4F4FD;
+}
+
+.SpisokGlavButtonsFirstButtons {
+    width: 440px;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.SpisokGlavButtonsFirst label {
+    display: flex;
+    flex-direction: column;
+    width: 213px;
+    height: 62px;
+    gap: 3px;
+    position: relative;
+}
+
+.SpisokGlavButtonsFirst label p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa {
+    width: 213px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa:hover {
+    border: 1px solid #323C47;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa:hover p {
+    color: #323C47;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa:hover span {
+    color: #323C47;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    font-family: Regular;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.SpisokGlavButtonsFirst label .ModalAddStudSelectButtonaaaaa span {
+    font-size: 12px;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble {
+    width: 213px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right {
+    padding: 10px 14px 10px 14px;
+    width: 89px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background: none;
+    align-items: center;
+    border-left: 1px solid #C2CFE0;
+    transition: .3s ease all;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right:hover {
+    border: 1px solid #323C47;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right:hover p {
+    color: #323C47;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right:hover span {
+    color: #323C47;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+    transition: .3s ease all;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .right span {
+    font-size: 12px;
+    color: #707683;
+    transition: .3s ease all;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .left {
+    padding: 0;
+    width: 124px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    border: none;
+    background: none;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+    transition: .3s ease all;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .left:hover {}
+
+.VrotEbal {
+    width: 440px;
+    display: flex;
+    align-items: center;
+}
+
+.VrotEbal .MakeNewStudentCheckBox {
+    display: flex;
+}
+
+.VrotEbal .MakeNewStudentCheckBox .css-j204z7-MuiFormControlLabel-root {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.SecontBirTiyin {
+    margin-top: 10px;
+}
+
+.SecondPuuuul {
+    margin-top: 24px;
+    border-top: 1px dashed #C2CFE0;
+    padding-top: 20px;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .dropdownMenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 87px;
+    height: 65px;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0px 0px 7.7px 0px #00000066;
+    border-radius: 6px;
+}
+
+.SpisokGlavButtonsFirstButtonsDuble .dropdownMenu p {
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #E4EAF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: RefularFontName;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+}
+
+
+
+.MakeNewStudentButtonsBox label button:hover {
+    border: 1px solid #192A3E;
+}
+
+.MakeNewStudentButtonsBox label button:hover p {
+    color: #192A3E;
+}
+
+.MakeNewStudentButtonsBox label button:hover span {
+    color: #192A3E;
+}

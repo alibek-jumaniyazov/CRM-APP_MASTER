@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Aside {
+  width: 256px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.MenuLefticon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #C2CFE0;
+
+}
+
+
+.MenuLeftText p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 1%;
+  font-family: Medium;
+  color: #90A0B7;
+}
+
+.MenuLeftText h3 {
+  font-family: SamiBold;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1%;
+  font-size: 14px;
+  color: rgba(25, 42, 62, 1);
+}
+
+.MenuLeftLogo {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid rgba(241, 244, 248, 1);
+  padding-bottom: 10.46px;
+}
+.MenuLeftLogo img{
+  position: absolute;
+  width: 150px;
+  left: 20px;
+}
+.MenuLeftContant {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.MenuLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+  align-items: flex-start;
+  width: 256px;
+  height: 96vh;
+  padding: 20px 0;
+  border-right: 1 solid #EBEFF2;
+}
+
+.MenuLeftUser {
+  width: 228px;
+  height: 50px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MenuLeftButtons {
+  width: 100%;
+  padding: 0 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #EBEFF2;
+}
+
+.MenuLeftButtons a {
+  width: 100%;
+  text-decoration: none;
+}
+
+
+.MenuButton {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 10px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.MenuButton p {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(51, 77, 110, 1);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Medium";
+  text-transform: capitalize;
+  transition: all .3s ease;
+  border-radius: 10px;
+}
+
+
+.MenuButton:hover {
+  background-color: rgba(228, 244, 253, 1);
+  color: #005EEB;
+  border-radius: 10px;
+}
+
+.MenuButton:hover p,
+.MenuButton:hover .imgiconbox {
+  color: #005EEB;
+}
+.MenuButton:hover p,
+.MenuButton:hover .imgiconbox svg {
+  stroke: #005EEB;
+}
+
+.MenuLeftUser.Xuyactive {
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 10px;
+}
+
+.MenuLeftUser {
+  transition: .3s all ease;
+}
+
+.MenuLeftUser:hover {
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 10px;
+}
+
+
+.MenuButton.active {
+  background-color: #005EEB;
+  border-radius: 10px;
+}
+
+.MenuButton.active p {
+  color: #fff;
+}
+
+.MenuButton.active .imgiconbox {
+  color: #fff;
+}
+.MenuButton.active .imgiconbox svg {
+  stroke: #fff;
+}
+.MenuButton.active:hover p {
+  color: white;
+}
+
+.MenuButton.active:hover .imgiconbox {
+  color: white;
+}
+.MenuButton.active:hover .imgiconbox svg {
+  stroke: white;
+}
+
+.imgiconbox {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: rgba(194, 207, 224, 1);
+  transition: all .3s ease;
+}
+.imgiconbox svg {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  stroke: rgba(194, 207, 224, 1);
+  transition: all .3s ease;
+}
+
+
+
+.ContentRight {
+  width: 80%;
+}
+
+.settongButtonBox {
+  display: flex;
+  justify-content: center;
+}
+
+
+.MenuLeftUser {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0 0px 0 4px;
+  position: relative;
+}
+
+.MenuLeftUser-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.DropdownMenuMain button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  display: flex;
+  background: none;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-family: Regular;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.MenuLeftContant {
+  display: flex;
+  align-items: center;
+}
+
+.MenuLefticon {
+  margin-left: auto;
+}
+
+.selected {
+  color: #005EEB;
+  background: rgba(224, 237, 255, 1);
+}
+
+.DropdownMenu {
+  /* Стили для дропдауна */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.DropdownMenu {
+  position: absolute;
+  top: 80px;
+  /* Adjust based on your layout */
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.DropdownMenuButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.DropdownMenu button.selected {
+  background-color: #f0f0f0;
+}
+
+.DropdownMenu button:hover {
+  background: #f0f0f0;
+}
+
+.checkmark {
+  margin-right: 10px;
+  color: #005EEB;
+  font-size: 16px;
+}
+
+.MenuButton {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.DropdownMenuMain {
+  position: absolute;
+  top: 60px;
+  width: 228px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  z-index: 100;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.4);
+  align-items: flex-start;
+}
+
+.DropdownMenuButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-family: Regular;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.DropdownMenuButton span {
+  color: #005EEB;
+}
+
+.selected {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: #005EEB;
+  background-color: rgba(224, 237, 255, 1) !important;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-family: Regular;
+  align-items: center;
+  padding-left: 20px;
+}
+
+
+.zayebalmenu {
+  margin-top: 0;
+  border: none;
+}

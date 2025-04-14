@@ -1,0 +1,938 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.CourseCards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px 24px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.CourseCard {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 268px;
+  height: 321px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 14px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.CourseCard:hover {
+  box-shadow: 0px 0px 15px 0px #00000033;
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+}
+
+.CourseCardBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.CourseCardBanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.CourseCardBanner p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-family: Bold;
+}
+
+.CourseCard:hover .CourseCardBanner p {
+  transition: all 0.3s ease;
+  background: #00000059;
+}
+
+.CourseCardAnimation {
+  width: 58px;
+  height: 5px;
+  border-radius: 13px;
+  background: #ebeff5;
+  transition: all 0.3s ease;
+}
+
+.CourseCard:hover .CourseCardAnimation {
+  width: 92px;
+  background: #005eeb;
+  transition: all 0.3s ease;
+}
+
+.CourseCardTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.CourseCardText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.CourseCardText p {
+  width: auto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  border: none;
+  font-family: SamiBold;
+}
+
+.CourseCardText span {
+  width: auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3eb9;
+  font-family: Medium;
+}
+
+.CourseInfoBuild {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CourseInfoBuild div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.CourseInfoBuild div p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #707683;
+  font-family: Regular;
+}
+
+.CourseInfoBuild div svg {
+  stroke: #c2cfe0;
+  transition: all 0.3s ease;
+}
+
+.CourseCard:hover .CourseInfoBuild div svg {
+  transition: all 0.3s ease;
+  stroke: #005eeb;
+}
+
+.CourseCard:hover .CourseInfoBuild div p {
+  color: #192a3e;
+  transition: all 0.3s ease;
+}
+
+.CourseCards::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.CourseCards::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.CourseCards::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}
+
+.NameComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.NameComponent p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  font-family: Bold;
+}
+
+/* CourseInfoCard */
+
+.CourseInfoCards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 46px 24px;
+  margin-top: 30px;
+}
+
+.CourseInfoCard {
+  position: relative;
+  width: 268px;
+  height: 221px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background: var(--Colors-White, #ffffff);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.CourseInfoCard:hover {
+  box-shadow: 0px 0px 15px 0px #00000025;
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+}
+
+.CourseInfoCard:hover .NameComponent {
+  box-shadow: 0px 4px 12px 0px var(--hover-color);
+  transition: all 0.3s ease;
+}
+
+.XLine {
+  position: absolute;
+  width: 170px;
+  height: 1px;
+  background: #ebeff5;
+  top: 63%;
+  left: 20%;
+  border-radius: 1px;
+}
+
+.YLine {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  background: #ebeff5;
+  top: 40%;
+  left: 50%;
+  border-radius: 1px;
+}
+
+.CourseInfoCardLevel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  transition: all 0.3s ease;
+}
+
+.CourseInfoCard:hover .CourseInfoCardLevel h1 {
+  color: var(--hover-title);
+  transition: all 0.3s ease;
+}
+
+.CourseInfoCardLevel h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #334d6e;
+  transition: all 0.3s ease;
+  font-family: Bold;
+}
+
+.CourseInfoCardTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px 20px;
+  column-gap: 15px;
+  transform: translateY(20px);
+}
+
+.CourseInfoCardTexts div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 20px); 
+}
+
+.CourseInfoCardTexts div p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #707683;
+  transition: all 0.3s ease;
+  font-family: Bold;
+}
+
+.CourseInfoCardTexts div span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #707683;
+  transition: all 0.3s ease;
+  font-family: Medium;
+}
+
+.CourseInfoCard:hover .CourseInfoCardTexts div p {
+  color: #192a3e;
+  transition: all 0.3s ease;
+}
+
+.CourseInfoCard:hover .CourseInfoCardTexts div span {
+  color: #192a3e;
+  transition: all 0.3s ease;
+}
+
+.CourseInfoHeaderTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.CourseInfoHeaderTitle button {
+  box-shadow: none;
+  padding: 8px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+
+.CourseInfoHeaderTitle button svg {
+  stroke: #90a0b7;
+}
+
+.CourseInfoHeaderButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.CourseInfoHeaderButtonOne {
+  box-shadow: none;
+  border: 1px solid #005eeb !important;
+  background-color: transparent !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #005eeb !important;
+}
+
+.CourseInfoHeaderButtonOne svg {
+  stroke: #005EEB;
+}
+
+.CourseInfoHeaderButtonTwo svg {
+  stroke: #FFFFFF;
+}
+
+.donteBtn {
+  padding: 8px !important;
+}
+
+.CourseLevelHeaderToggles {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.CourseLevelHeaderToggles p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  height: 30px;
+  border-bottom: 2px solid #c2cfe0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: #90a0b7;
+  background: transparent;
+  transition: all 0.3s ease;
+  font-size: Medium;
+}
+
+.CourseLevelHeaderToggles p:hover {
+  color: #727d8db7 !important;
+  border-bottom: 2px solid #727d8db7 !important;
+  transition: all 0.3s ease;
+}
+
+
+.CourseLevelHeaderToggles a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  height: 30px;
+  border-bottom: 2px solid #c2cfe0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: #90a0b7;
+  background: transparent;
+  transition: all 0.3s ease;
+  font-size: Medium;
+  text-decoration: none!important;
+}
+
+.CourseLevelHeaderToggles a:hover {
+  color: #727d8db7 !important;
+  border-bottom: 2px solid #727d8db7 !important;
+  transition: all 0.3s ease;
+}
+
+.CourseLevelHeaderToggles .active:hover {
+  color: #005eeb !important;
+  border-bottom: 2px solid #005eeb !important;
+  transition: all 0.3s ease;
+}
+
+.CourseInfoLevelHeaderTitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.CourseInfoLevelHeaderTitle button {
+  box-shadow: none;
+  padding: 8px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90a0b7);
+}
+
+.CourseInfoLevelHeaderTitle button svg {
+  stroke: #90a0b7;
+}
+
+.CourseContent1 {
+  width: 100%;
+}
+
+.CourseContentCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CourseContentCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 265px;
+  height: 80px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.CourseContentCard div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.CourseContentCard div p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: SamiBold;
+}
+
+.CourseContentCard div span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: Medium;
+}
+
+.CourseContent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.CourseLevelTypes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 276px;
+  padding: 12px;
+  gap: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.CourseLevelTypesTitle {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+}
+
+.CourseLevelType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 252px;
+  height: 60px;
+  padding: 14px;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border: 0.5px solid #f1f4f8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #192a3e;
+}
+
+.CourseLevelType .CourseLevelTypelessons svg {
+  stroke: #192a3e;
+}
+
+.CourseLevelTypeActive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 252px;
+  height: 60px;
+  padding: 14px;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #33a9ff;
+  border: 0.5px solid #f1f4f8;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.CourseLevelTypeActive .CourseLevelTypelessons svg {
+  stroke: white;
+}
+
+.CourseLevelType:hover {
+  background-color: #95d3f98c;
+  transition: background-color 0.3s ease;
+}
+
+.CourseLevelTypeNumber {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.CourseLevelTypeNumber p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  font-family: Medium;
+}
+
+.CourseLevelTypelessons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.CourseLevelTypelessons p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  font-family: Regular;
+}
+
+.CourseContent2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* CourseLevelTodoList */
+
+.CourseLevelTodoList {
+  width: 844px;
+  height: 700px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.CourseLevelTodoListNavbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.CourseLevelTodoListHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CourseLevelTodoListTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  transform: translateY(-15px);
+}
+
+.CourseLevelTodoListTitle p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192a3e;
+  font-family: SamiBold;
+}
+
+.CourseLevelTodoListHeaderInfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.CourseLevelTodoListTitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1px;
+}
+
+.CourseLevelTodoListTitles p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #334d6e;
+  font-family: SamiBold;
+}
+
+.CourseLevelTodoListTitles span {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #334d6e;
+  font-family: Regular;
+}
+
+.CourseLevelTodoListHeaderInfos button {
+  width: 219px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+  border: 1px solid #005eeb;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #005eeb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: Medium;
+}
+
+.CourseLevelTodoListHeaderInfos button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.CourseLevelTodoListSearch {
+  width: 192px;
+  height: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #c2cfe0;
+  font-family: Regular;
+}
+
+.CourseLevelTodoListSearch input {
+  border: none;
+  outline: #005eeb;
+  background: transparent;
+  width: 100%;
+}
+
+.CourseLevelTodoListSearch input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+}
+
+.CourseLevelTodoListSendLesson {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.CourseLevelTodoListCreate {
+  width: 592px;
+  padding: 16px 20px 16px 20px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #c2cfe0;
+  outline: #005eeb;
+  font-family: Regular;
+}
+
+.CourseLevelTodoListCreate::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #90a0b7;
+}
+
+.CourseLevelTodoListSendLesson button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 38px;
+  padding: 10px 20px 10px 20px;
+  gap: 4px;
+  border-radius: 8px;
+  background: #005eeb;
+  box-shadow: 0px 0px 6px 0px #0000001a;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: Medium;
+}
+
+.CourseLevelTodoListSendLesson button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.CourseLevelTodoLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  height: 570px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 20px;
+}
+
+.LevelTodoList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 804px;
+  height: 54px;
+  padding: 20px 10px;
+  border-radius: 4px;
+  background: #f8fafc;
+  border: 0.5px solid #f1f4f8;
+  transition: all 0.3s ease;
+}
+
+.LevelTodoList:hover {
+  background: #33aaffa4;
+  transition: all 0.3s ease;
+}
+
+.LevelTodoListActive {
+  background: #33aaffa4;
+  transition: all 0.3s ease;
+}
+
+.CourseLevelTodoLists::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.CourseLevelTodoLists::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.LevelTodoList div div p {
+  font-size: 12px;
+  font-family: Medium;
+}
+
+.CourseLevelTodoLists::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}
+
+.listDescInput {
+  outline: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #323c47;
+  border: 1px solid #005eeb;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.TodoListSaveBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  padding: 10px 20px 10px 20px;
+  gap: 4px;
+  border-radius: 8px;
+  background: #005eeb;
+  box-shadow: 0px 0px 6px 0px #0000001a;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.TodoListPutBtn {
+  cursor: pointer;
+  stroke: #707683;
+}
+
+.TodoListDelBtn {
+  cursor: pointer;
+  stroke: #707683;
+}
+
+.TodoListPutBtn:hover {
+  stroke: #005eeb;
+}
+
+.TodoListDelBtn:hover {
+  stroke: #f7685b;
+}
+
+.ActionsTodoList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-right: 40px;
+}

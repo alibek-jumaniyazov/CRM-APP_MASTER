@@ -1,0 +1,159 @@
+.CoursePage {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.2vw;
+  margin: 0;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.CoursesHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CoursesHeader h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  font-family: Bold;
+}
+
+.CoursesHeader button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  gap: 4px;
+  border-radius: 8px;
+  background: #005eeb;
+  box-shadow: 0px 0px 6px 0px #0000001a;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  font-family: Medium;
+
+}
+
+.CoursesHeader button:active {
+  scale: 90%;
+  transition: all 0.3s ease;
+}
+
+.CourseTableTitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+
+}
+
+.CourseTableTitle p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #192A3E;
+
+}
+
+.CourseDoteModal {
+  position: absolute;
+  top: 160px;
+  right: 20px;
+  width: 185px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 7.7px 0px #00000066;
+  z-index: 99999;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* .CourseDoteModal:hover{
+  background: #F7685B;
+  transition: all 0.3s ease;
+  z-index: 99999;
+
+}
+.CourseDoteModal:hover .CourseDoteModalInfo p{
+  color: white;
+  transition: all 0.3s ease;
+} */
+.CourseDoteModal:active {
+  background-color: #F7685B;
+  transition: all 0.3s ease;
+}
+
+.CourseDoteModal:active .CourseDoteModalInfo p {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.CourseDoteModalInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.CourseDoteModalInfo p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #F7685B;
+}
+
+.CourseDoteModalInfo svg {
+  width: 16px;
+  height: 16px;
+}
+
+.CourseDeleteDoteModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+}
+
+.fuchingCourse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+
+.fuckingFuck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

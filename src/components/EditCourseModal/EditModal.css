@@ -1,0 +1,854 @@
+.EditModalOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 988px;
+    min-height: 481px;
+    max-height: 664px;
+    border-radius: 12px;
+    padding: 70px 0px 10px 0px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    background-color: #fff;
+    position: relative;
+    opacity: 0;
+    transform: scale(0.9);
+    overflow: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.EditModalTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 988px;
+    min-height: 664px;
+    max-height: 664px;
+    border-radius: 12px;
+    padding: 70px 0px 10px 0px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.EditModalOne.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.EditModalOneTitle {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+}
+
+.EditModalOneTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.EditModalOneTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.EditModalOneContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.EditModalOneBar {
+    width: 486px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.EditModalOneBar button {
+    min-width: 100px;
+    max-width: 140px;
+    height: 36px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #C2CFE0;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.EditModalOneBar button:hover {
+    border-bottom: 2px solid #334D6E;
+    color: #334D6E !important;
+}
+
+.EditCursMain,
+.EditCursBegginer,
+.EditCursElementary,
+.EditCursIntermediate {
+    width: 988px;
+    min-height: 301px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 40px 0px 40px;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.3s ease, min-height 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.EditCursMain.show,
+.EditCursBegginer.show,
+.EditCursElementary.show,
+.EditCursIntermediate.show {
+    opacity: 1;
+    transform: scale(1);
+    max-height: 1000px;
+}
+
+.EditCursMainTop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.EditCursMainTopTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.EditCursMainTopTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.EditCursMainTopcontant {
+    display: flex;
+    align-items: flex-start;
+    min-width: 417px;
+    height: 62px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.EditCursMainTopcontant .EditCursMainTopcontantLabel {
+    width: 212px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.EditCursMainTopcontant .EditCursMainTopcontantLabel p {
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.EditCursMainTopcontant .EditCursMainTopcontantLabel input {
+    width: 212px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+    border: 1px solid #C2CFE0;
+    background-color: #fff;
+}
+
+.EditCursMainTopcontant .EditCursMainTopcontantLabel input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.EditCursMainTopcontantCheck {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.EditCursMainTopcontantCheck p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.EditCursMainTopcontantCheck label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.EditCursMainTopcontantCheck label p {
+    margin-top: 2px;
+    font-size: 12px !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-weight: 400 !important;
+    font-family: Regular !important;
+    color: #707683 !important;
+}
+
+.EditCursMainTopcontantCheck label input {
+    width: 14.57px;
+    height: 14.57px;
+    cursor: pointer;
+}
+
+.EditCursMainDown {
+    width: 350px;
+    min-height: 177px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.EditCursMainDownTable {
+    width: 261px;
+    min-height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px 0 10px 10px;
+    overflow: hidden;
+}
+
+.EditCursMainDownTableTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 261px;
+}
+
+.EditCursMainDownTableTitle div p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 600;
+    font-family: SamiBold;
+    color: #707683;
+}
+
+.EditCursMainDownTableTitle div:nth-child(1) {
+    width: 118px;
+    height: 45px;
+    display: flex;
+    padding: 16px 20px 16px 20px;
+    align-items: center;
+    border-bottom: 1px solid #C2CFE0;
+    border-right: 1px solid #C2CFE0;
+}
+
+.EditCursMainDownTableTitle div:nth-child(2) {
+    width: 144px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #C2CFE0;
+}
+
+.EditCursMainDownTableCont {
+    width: 261px;
+    height: 45px;
+    border-bottom: 1px solid #C2CFE0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EditCursMainDownTableCont div:nth-child(1) {
+    min-width: 118px;
+    max-width: 118px;
+    height: 45px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 1px solid #C2CFE0;
+}
+
+.EditCursMainDownTableCont div:nth-child(1) p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #707683;
+}
+
+.EditCursMainDownTableCont div:nth-child(2) {
+    width: 144px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditCursMainDownTableCont div:nth-child(2) input {
+    width: 104px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+    border: none;
+    background: none;
+}
+
+.EditCursMainDownTableCont div:nth-child(2) input::placeholder {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+}
+
+
+.EditCursMainDownTableContButton,
+.EditCursMainDownTableContButton button {
+    width: 261px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.EditCursMainDownTableContButton button p {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1%;
+    font-weight: 600;
+    font-family: SamiBold;
+    color: #707683;
+}
+
+.EditModalOneDownButton {
+    width: 988px;
+    height: 62px;
+    padding: 20px 20px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.EditModalOneDownButtonLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.EditModalOneDownButtonLeft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 139px;
+    height: 32px;
+    color: #F7685B;
+    border: 1px solid #F7685B;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.EditModalOneDownButtonLeft button:hover {
+    background-color: #FEEEED;
+}
+
+.EditModalOneDownButtonLeft button p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #F7685B;
+}
+
+.EditModalOneDownButtonLeft button span {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditModalOneDownButtonRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+}
+
+.EditModalOneDownButtonRight button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.EditModalOneDownButtonRight button:nth-child(1) {
+    border: 1px solid var(--Colors-Normal-gray-Normal-gray, #90A0B7);
+    background: #FFFFFF;
+}
+
+.EditModalOneDownButtonRight button:nth-child(1):hover {
+    border: 1px solid #334D6E;
+}
+
+.EditModalOneDownButtonRight button:nth-child(1):hover p {
+    color: #334D6E;
+}
+
+.EditModalOneDownButtonRight button:nth-child(1) p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    transition: .3s ease all;
+}
+
+.EditModalOneDownButtonRight button:nth-child(2) {
+    background: #005EEB;
+    border: none;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+
+.EditModalOneDownButtonRight button:nth-child(2):hover {
+    background-color: #0569FFDE;
+}
+
+.EditModalOneDownButtonRight button:nth-child(2) p {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 16.2px;
+    color: #fff;
+    font-family: Medium;
+}
+
+.EditModalOneDownButtonRight button:nth-child(2) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.EditCourseRating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.EditCourseRatingTitle p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+    font-weight: 500;
+}
+
+.EditCourseRatingCheck label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 11px;
+    gap: 10px;
+}
+
+.EditCourseRatingCheck label p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    font-family: Regular;
+    color: #707683;
+    margin-top: 2px;
+}
+
+.EditCursMainDownTwo {
+    width: 908px !important;
+    min-height: 94px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.EditCursMainDownTitle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.EditCursMainDownTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.EditCursMainDownButtonDown {
+    display: flex;
+    gap: 20px;
+}
+
+.EditCursMainDownButtonDown label {
+    width: 212px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.EditCursMainDownButtonDown label p {
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.EditCursMainDownButtonDown label input {
+    width: 212px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    padding: 16px 20px 16px 20px;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditCursMainDownButtonDown label select {
+    appearance: none;
+    width: 212px;
+    height: 45px;
+    border: 1px solid #C2CFE0;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditCursMainDownButtonDown label input::placeholder {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+}
+
+.EditCursMainDownButtonDown label select::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="%23333" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0L160 272l96.4-112.2c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.5 9.4-24.7 9.4-34.1 0z"/></svg>') no-repeat center;
+    background-size: contain;
+}
+
+.redBoxEditModal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.redBoxEditModal p {
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 400;
+    font-family: Regular;
+    color: #F7685B;
+    letter-spacing: 1%;
+}
+
+.EditModalOneBar button:nth-child(3) {
+    min-width: 131px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.EditModalOneBar button:nth-child(4) {
+    min-width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.EditModalOneBar button span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    color: #F7685B;
+}
+
+.GroupIndCheckButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.EditCursMainDownThree {
+    margin-top: 30px !important;
+}
+
+.EditCursMainTopTwo {
+    height: 153px !important;
+}
+
+.DeleteEditModalCurse {
+    width: 317px;
+    height: 218px;
+    padding: 30px 10px 15px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.DeleteEditModalCurseTitle {
+    width: 321px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+}
+
+.DeleteEditModalCurseTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.DeleteEditModalCurseTitle p {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.DeleteEditModalCurseButton {
+    display: flex;
+    width: 268px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.DeleteEditModalCurseButton button {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.DeleteEditModalCurseButton button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    background: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+}
+
+.DeleteEditModalCurseButton button:nth-child(1):hover {
+    border: 1px solid #334D6E;
+    color: #334D6E;
+}
+
+.DeleteEditModalCurseButton button:nth-child(2) {
+    border: none;
+    background-color: #F7685B;
+    font-size: 12px;
+    font-family: Medium;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.DeleteEditModalCurseButton button:nth-child(2):hover {
+    background-color: #FF7F74;
+}
+
+.DeleteEditModalCurseConfim {
+    width: 320px;
+    height: 162.75px;
+    border-radius: 11.13px;
+    padding: 25px 12px 15px 12px;
+    background: #fff;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.DeleteEditModalCurseTitleConfim {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4.45px;
+}
+
+.DeleteEditModalCurseTitleConfim h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.DeleteEditModalCurseTitleConfim p {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.SaveEditModalCurseButton button:nth-child(2) {
+    background-color: #005EEB !important;
+}
+
+.SaveEditModalCurseButton button:nth-child(2):hover {
+    background-color: #0569FFDE !important;
+}
+
+.SaveEditModalCurse {
+    width: 317px !important;
+    height: 194px !important;
+}
+
+.SaveEditModalCurseTitle {
+    width: 316px !important;
+    height: 86px !important;
+}

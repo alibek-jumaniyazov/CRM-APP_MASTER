@@ -1,0 +1,32 @@
+.InvalidLesson {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1100;
+}
+
+.SpecifiedBox {
+    margin-top: 26px;
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SpecifiedBox p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.Xuaaaaaa {
+    margin-top: 20px !important;
+}

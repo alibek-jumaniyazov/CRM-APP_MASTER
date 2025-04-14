@@ -1,0 +1,518 @@
+.FinanceWalletCard {
+  width: 474px;
+  height: 104px;
+  gap: 12px;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.FinanceWalletCard:hover {
+  box-shadow: 0px 0px 7.4px 0px #00000028;
+  transition: all 0.3s ease;
+}
+
+.FinanceWalletCardBlue {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  width: 209.6px;
+  height: 104px;
+  padding: 8px 0px 0px 12px;
+  border-radius: 10px;
+  background-image: url(../../Assets/WalletBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+
+.FinanceWalletCardBlue:hover {
+  box-shadow: 0px 0px 8px 6px #005eeb6e;
+  transition: all 0.3s ease;
+}
+
+.FinanceWalletCardBlueInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.FinanceWalletBalance {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  font-family: Regular;
+}
+
+.FinanceWalletPrine {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+}
+
+.FinanceWalletPrine p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  font-family: SamiBold;
+}
+
+.FinanceWalletPrine span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  display:flex;
+  align-items:flex-end;
+  height: 85%;
+  font-family: SamiBold;
+}
+
+.FinanceWalletCardInfo {
+  width: 244px;
+  height: 62px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 2px;
+}
+
+.FinanceWalletCardInfoText {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+}
+
+.FinanceWalletCardInfoCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #005eeb;
+}
+
+.FinanceWalletCardInfoText span {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  font-family: SamiBold;
+}
+
+.FinanceWalletCardInfoText p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  font-family: Regular;
+}
+
+.FinanceCirculationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 231px;
+  height: 83px;
+  padding: 12px 37px 8px 37px;
+  gap: 6px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.FinanceCirculationCard:hover {
+  box-shadow: 0px 0px 7.4px 0px #00000028;
+  transition: all 0.3s ease;
+}
+
+.FinanceCirculationCardTitle {
+  width: 200px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #90a0b7;
+  transition: all 0.3s ease;
+  font-family: Regular;
+}
+
+.FinanceWalletCard:hover .FinanceCirculationCardTitle {
+  color: #323c47;
+  transition: all 0.3s ease;
+}
+
+.FinanceCirculationCardInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3px;
+  font-family: SamiBold;
+}
+
+.FinanceCirculationCardInfo p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33.75px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #323c47;
+}
+
+.FinanceCirculationCardInfo span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.9px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+  height: 60%;
+  display:flex;
+  align-items:flex-end;
+
+}
+
+.FinanceCirculationCardHr {
+  width: 32px;
+  height: 5px;
+  border-radius: 10px;
+  background: #f1f4f8;
+  transition: all 0.3s ease;
+}
+
+.FinanceCirculationCard:hover .FinanceCirculationCardHr {
+  background: #33aaffb4;
+  transition: all 0.3s ease;
+}
+
+.FinancePercentagePriceCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 373px;
+  height: 294px;
+  padding: 13px 16px 13px 16px;
+  gap: 12px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.FinancePercentagePriceCard p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: SamiBold;
+}
+
+.FinancePercentagePriceCard span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: Medium;
+}
+
+.FinancePercentagePriceCardText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.PriceCardTextBlue {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: #005eeb;
+}
+
+.PriceCardTextWhite {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: #c2cfe0;
+}
+
+.FinancePercentagePriceCardMini {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 273px;
+  height: 90px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.PercentagePriceCardMiniInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.PercentagePriceCardMiniInfos p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  font-family: SamiBold;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+}
+
+.PercentagePriceCardMiniInfos span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  letter-spacing: 0.01em;
+  font-family: Medium;
+  color: #334d6e;
+}
+
+.PercentagePriceCardMiniStudents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.PercentagePriceCardMiniStudentLang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.FinanceCirculationCardBig {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 474px;
+  height: 104px;
+  padding: 12px 37px 8px 37px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.FinancePercentagePriceCardsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.FinanceCirculationCardBigInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.FinanceCirculationCardBigHr {
+  width: 2px;
+  height: 47px;
+  border: 2px;
+  background-color: #c2cfe0;
+}
+
+.FinanceCirculationCardBig svg {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.Samolyot {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.FinancePercentagePriceCardRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 172px;
+  height: 294px;
+  padding: 12px 10px 12px 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.FinancePercentagePriceCardRight p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: SamiBold;
+}
+
+.FinancePercentagePriceCardRight span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+  font-family: Medium;
+}
+
+.FinancePercentagePriceCardRightColors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: fit-content;
+  position: relative;
+}
+
+.CardRightColorWhite {
+  width: 36px;
+  height: 112px;
+  border-radius: 8px;
+  background: #e4eaf1;
+}
+
+.CardRightColorBlue {
+  position: absolute;
+  bottom: 0;
+  width: 36px;
+  height: 53px;
+  border-radius: 8px;
+  background: #005eeb;
+}
+
+.PercentagePriceCardRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.CourseInfoHeaderButtonModal {
+  position: relative;
+}
+
+.CourseInfoIcons {
+  transform: rotate(0);
+  transition: all 0.3s ease;
+}
+
+.CourseInfoIconsRotate {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+
+/* FinanceExpenseCard */
+
+.FinanceExpenseCard {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 134px;
+  height: 128px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 0px 7.4px 0px #00000066;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.FinanceIncomeCard {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 164px;
+  height: 160px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 0px 7.4px 0px #00000066;
+  box-sizing: border-box;
+  z-index: 999;
+
+}
+
+.FinanceExpenseList p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #707683;
+  transition: all 0.3s ease;
+  transform: translateX(30px);
+}
+
+.FinanceExpenseList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+  height: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #70768342;
+}
+
+.FinanceExpenseList svg {
+  stroke: #707683;
+  transition: all 0.3s ease;
+  transform: translateX(25px);
+}
+
+.FinanceExpenseList:hover {
+  background-color: #005eeb2c;
+  transition: all 0.3s ease;
+}
+
+.FinanceExpenseList:hover p {
+  color: #005eeb;
+  transition: all 0.3s ease;
+}
+
+.FinanceExpenseList:hover svg {
+  stroke: #005eeb;
+  transition: all 0.3s ease;
+}
+
+.ObshiyDwa {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.Vseblyad {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

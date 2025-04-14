@@ -1,0 +1,104 @@
+.EditLevelContainerStep {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1010;
+}
+
+.EditLevelContainer {
+    min-width: 988px;
+    min-height: 494px;
+    max-height: 618px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 10px 0px;
+}
+
+.EditLevelContainerOne {
+    width: 988px;
+    min-height: 301px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 40px 0px 40px;
+    transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.3s ease, min-height 0.3s ease;
+}
+
+.EditModalOneTitleSec {
+    margin-bottom: 10px;
+}
+
+.EditLevelButtonsR {
+    width: 988px;
+    height: 62px;
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.EditLevelButtonsR button {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.EditLevelButtonsR button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    background: #fff;
+    color: #90A0B7;
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 16.2px;
+}
+
+.EditLevelButtonsR button:nth-child(2) {
+    border: none;
+    background: #005EEB;
+    gap: 4px;
+}
+
+.EditLevelButtonsR button:nth-child(2):hover {
+    background-color: #0569FFDE !important;
+}
+
+.EditLevelButtonsR button:nth-child(2) p {
+    color: #fff;
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 16.2px;
+}
+
+.EditLevelButtonsR button:nth-child(2) span {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EditLevelButtonsR button:nth-child(1):hover {
+    border: 1px solid #334D6E;
+    color: #334D6E;
+}

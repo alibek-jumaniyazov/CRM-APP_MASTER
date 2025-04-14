@@ -1,0 +1,36 @@
+.PhoneCopied {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.PhoneCopiedOne {
+    width: 320px;
+    height: 146.18px;
+    border-radius: 11.13px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 12px 15px 12px;
+}
+
+.PhoneCopiedOneTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: Bold;
+}

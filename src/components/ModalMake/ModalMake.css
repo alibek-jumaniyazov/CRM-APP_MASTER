@@ -1,0 +1,87 @@
+#makemodal {
+    width: 316px;
+    height: 216px;
+    padding: 30px 10px 15px 10px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+}
+
+#makemodalbuttons button {
+    width: 128px;
+    height: 32px;
+}
+
+#makemodaltext{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#makemodaltext h2 {
+    width: 301px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    text-align: center;
+    color: #334D6E;
+    font-family: SamiBold;
+    margin-bottom: 6px;
+}
+
+#makemodaltext p {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    align-items: center;
+    font-family: Regular;
+    margin-bottom: 30px;
+}
+
+#secMakeModal {
+    width: 320px;
+    height: 162.75px;
+    border-radius:11.13px;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    background-color: #FFFFFF;
+    padding: 25px 12px 15px 12px;
+}
+
+.JalapskoeLogo {
+    width: 59.34px;
+    height: 59.34px;
+    border-radius:50%;
+    background-color: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JalapskoeLogo span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    color: white;
+}
+
+.SecMakeTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 4.45px;
+}
+
+.SecMakeTextBox h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+}
+
+.SecMakeTextBox p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+}

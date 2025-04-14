@@ -1,0 +1,656 @@
+.AddRefund {
+    width: 550px;
+    height: 604px;
+    border-radius: 15px;
+    padding: 50px 25px 20px 25px;
+    background: #fff;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.AddExpence {
+    width: 550px;
+    height: 534px !important;
+}
+
+.AddPaymentBlya {
+    height: 585px;
+}
+
+.AddRefundTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+    height: 93px;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.AddRefundTitle h2 {
+    font-size: 25px;
+    line-height: 33.75px;
+    font-weight: 700;
+    font-family: SamiBold;
+    letter-spacing: 1%;
+    color: #334D6E;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.AddRefundTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    text-align: center;
+    color: #90A0B7;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.AddRefundContant {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+}
+
+.AddRefundSelect {
+    width: 439px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}
+
+.AddRefundSelect p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.AddRefundSelect button {
+    width: 439px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+}
+
+.AddRefundSelect button p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.AddRefundSelect button span {
+    font-size: 12px;
+    color: #90A0B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddRefundSelect .dropdown {
+    position: absolute;
+    top: 62px;
+    width: 440px;
+    height: 67px;
+    padding: 0px 4px 4px 0px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7.7px 0px #00000066;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.AddRefundSelect .dropdown .DropDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 415px;
+    min-height: 32px !important;
+    padding: 0px 24px 0px 24px;
+    gap: 30px;
+    border-bottom: 1px solid #EFF0F1;
+}
+
+.dropdown::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+.dropdown::-webkit-scrollbar-track {
+    background: #F6FAFF;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px solid #E4EAF1;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+    background-color: #B0C2DA;
+    /* цвет плашки */
+    border-radius: 20px;
+    /* закругления плашки */
+    border: 3px solid #F6FAFF;
+    /* padding вокруг плашки */
+}
+
+.AddRefundSelect .dropdown .DropDiv .dropdownLeft {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.AddRefundSelect .dropdown .DropDiv .dropdownLeft p {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+}
+
+.AddRefundSelect .dropdown .DropDiv .dropdownRight p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+    font-family: Regular;
+}
+
+.dubleAddRefundSelect {
+    margin-top: 15px;
+    display: flex;
+    width: 500px;
+    height: 62px;
+    gap: 15px;
+}
+
+.dubleAddRefundSelect label {
+    width: 212px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.dubleAddRefundSelect label p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.dubleAddRefundSelect label input {
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+
+}
+
+.dubleAddRefundSelect label input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.dubleAddRefundSelect label button {
+    width: 212px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 16px 20px 16px 20px;
+    gap: 10px;
+}
+
+.dubleAddRefundSelect label button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SegDate {
+    background-color: #F8FAFC !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.SegDate p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #C2CFE0 !important;
+}
+
+.RadioBoxAddRefundSelect {
+    width: 440px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 15px;
+}
+
+.RadioBoxAddRefundSelectTitle {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    line-height: 13.5px !important;
+    letter-spacing: 1% !important;
+    color: #334D6E !important;
+    font-family: Medium;
+}
+
+.RadioGroupModalFinance {
+    display: flex !important;
+    gap: 32.33px;
+}
+
+.RadioAddRefundSelectTitle {
+    width: 69px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center;
+}
+
+.RadioAddRefundSelectTitle .PrivateSwitchBase-input {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.RadioAddRefundSelectTitle .css-hyxlzm svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.RadioAddRefundSelectTitle .MuiTypography-root {
+    margin-top: 2px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 16.2px !important;
+    letter-spacing: 1% !important;
+    font-family: Regular !important;
+    color: #707683 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.balanceAddRefundSelect .RedSpan {
+    color: #F7685B;
+}
+
+.CommentAddRefundSelect {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 15px;
+}
+
+.CommentAddRefundSelect p {
+    font-size: 10px;
+    line-height: 13.5px;
+    font-weight: 500;
+    font-family: Medium;
+    letter-spacing: 1%;
+    color: #334D6E;
+}
+
+#CommentAddRefundSelectText {
+    width: 440px;
+    height: 81px;
+    padding: 12px 16px 12px 16px;
+    background: #FFFFFF;
+    border: 1px solid #90A0B7;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+    border-radius: 4px;
+    resize: none;
+}
+
+
+#CommentAddRefundSelectText::placeholder {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+}
+
+.balanceAddRefundSelect {
+    display: flex;
+    width: 500px;
+    height: 32px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.balanceAddRefundSelect p {
+    width: 245px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #334D6E;
+}
+
+.balanceAddRefundSelect p span {
+    font-size: 12px;
+    font-family: Medium;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #2ED47A;
+}
+
+.balanceAddRefundSelect label {
+    display: flex;
+    align-items: center;
+    width: 245px;
+    height: 32px;
+    gap: 6px;
+    padding-left: 86px;
+}
+
+.balanceAddRefundSelect label p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #707683;
+}
+
+.ButtonAddRefundSelect {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.ButtonAddRefundSelect .Cancel {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #90A0B7;
+    background-color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonAddRefundSelect .Confim {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #005EEB;
+    background-color: #005EEB;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.balanceAddRefundSelect input[type="checkbox"] {
+    width: 24px;
+    height: 15px;
+    appearance: none;
+    border: 1px solid #666666;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+}
+
+.balanceAddRefundSelect input[type="checkbox"]:checked {
+    width: 24px;
+    height: 15px;
+    background-color: #007bff;
+    border: none;
+}
+
+.balanceAddRefundSelect input[type="checkbox"]:checked::before {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+}
+
+.SecondTwar {
+    width: 317px;
+    height: 223px;
+    border-radius: 15px;
+    padding: 30px 10px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.SecondTwarTitle {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    align-items: center;
+    height: 86px;
+    padding: 0px 5px 0px 5px;
+    gap: 6px;
+}
+
+.SecondTwarTitle h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    font-family: SamiBold;
+    color: #334D6E;
+}
+
+.SecondTwarTitle p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+    text-align: center;
+}
+
+.SecondTwarCheck {
+    width: 279px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 6px;
+}
+
+.SecondTwarCheck p {
+    font-size: 12px;
+    font-family: Regular;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #707683;
+}
+
+.SecondTwarButtons {
+    width: 268px;
+    height: 60px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SecondTwarButtons .GoBack {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #90A0B7;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #90A0B7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.SecondTwarButtons .Yas {
+    width: 128px;
+    height: 32px;
+    border: 1px solid #005EEB;
+    background: #005EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Medium;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.TherdTwar {
+    width: 320px;
+    height: 162.75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 11.13px;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    padding: 25px 12px 15px 12px;
+    gap: 10px;
+}
+
+.TherdTwarIcon {
+    width: 59.34px;
+    min-height: 59.34px;
+    max-height: 59.34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #005EEB;
+}
+
+.TherdTwarIcon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    color: #fff;
+}
+
+.TherdTwarTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4.45px;
+}
+
+.TherdTwarTitle h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: SamiBold;
+    padding: 0;
+    margin: 0;
+}
+
+.TherdTwarTitle p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+    font-family: Regular;
+    padding: 0;
+    margin: 0;
+}

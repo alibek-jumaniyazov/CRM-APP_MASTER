@@ -1,0 +1,332 @@
+.PersonalInformationEdit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.PersonalInformationEditStepOne {
+    width: 550px;
+    height: 355px;
+    border-radius: 15px;
+    padding: 50px 25px 20px 25px;
+    background: var(--Colors-White, #FFFFFF);
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PersonalInformationEditStepOneTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.PersonalInformationEditStepOneTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    line-height: 33.75px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+.PersonalInformationEditStepOneTitle p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    color: #90A0B7;
+}
+
+.PersonalInformationEditStepOneButtons {
+    width: 500px;
+    height: auto;
+    padding: 0 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.PersonalInformationEditStepOneButtons label {
+    width: 212px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.PersonalInformationEditStepOneButtons label p {
+    font-size: 10px;
+    line-height: 13.5px;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: Medium;
+    color: #334D6E;
+}
+
+.PersonalInformationEditStepOneButtons label .date-input-wrapper {
+    width: 212px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 14.5px 20px;
+}
+
+.EnterAdressInp,
+.CardNumInp {
+    width: 212px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0 !important;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14.5px 20px;
+}
+
+.PersonalInformationEditStepOneButtons label input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+}
+
+.PersonalInformationEditStepOneButtons label input::placeholder {
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular !important;
+    color: #707683;
+}
+
+.PersonalInformationEditStepOneButtons label select {
+    width: 212px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #707683;
+    padding: 14.5px 20px;
+}
+
+.PersonalInformationEditStepOneButtonsSave {
+    width: 520px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    gap: 13px;
+}
+
+.PersonalInformationEditStepOneButtonsSave button {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 16.2px;
+    font-family: Medium;
+    letter-spacing: 1%;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.PersonalInformationEditStepOneButtonsSave button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    background-color: #fff;
+    color: #90A0B7;
+}
+
+.PersonalInformationEditStepOneButtonsSave button:nth-child(2) {
+    border: 1px solid #005EEB;
+    background-color: #005EEB;
+    color: #FFF;
+}
+
+.PersonalInformationEditStepOneButtonsSave button:nth-child(2):hover {
+    background-color: #257AFD;
+}
+
+.PersonalInformationEditStepOneButtonsSave button:nth-child(1):hover {
+    border: 1px solid #192A3E;
+    color: #192A3E;
+}
+
+.custom-date-input {
+    border: none;
+    outline: none;
+    appearance: textfield;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.custom-date-input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.custom-date-input::-webkit-inner-spin-button {
+    display: block;
+}
+
+.date-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #90A0B7;
+}
+
+.PersonalInformationEditStepTwo {
+    width: 317px;
+    height: 194px;
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 30px 10px 15px 10px;
+    box-shadow: 0px 0px 34.9px 8px #00000038;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PersonalInformationEditStepTwoTitle {
+    width: 316px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+}
+
+.PersonalInformationEditStepTwoTitle h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1%;
+    color: #334D6E;
+    font-family: Bold;
+}
+
+.PersonalInformationEditStepTwoTitle p {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: Regular;
+    color: #90A0B7;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo {
+    width: 268px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo button {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo button:nth-child(1) {
+    border: 1px solid #90A0B7;
+    background: #fff;
+    color: #90A0B7;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo button:nth-child(2) {
+    border: 1px solid #005EEB;
+    background: #005EEB;
+    color: #FFF;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo button:nth-child(2):hover {
+    background-color: #257AFD;
+}
+
+.PersonalInformationEditStepOneButtonsSaveTwo button:nth-child(1):hover {
+    border: 1px solid #192A3E;
+    color: #192A3E;
+}
+
+.PersonalInformationEditStepThree {
+    width: 320px;
+    height: 162.75px;
+    border-radius: 11.13px;
+    box-shadow: 0px 0px 25.89px 5.93px #00000038;
+    background-color: #FFF;
+    padding: 25px 12px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.PersonalInformationEditStepThreeButton {
+    width: 291.84px;
+    height: 53.41px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4.45px;
+    padding: 7.2px;
+}
+
+.PersonalInformationEditStepThreeButton h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 700;
+    font-family: Bold;
+    color: #334D6E;
+}
+
+
+.PersonalInformationEditStepThreeButton p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 1%;
+    font-family: Regular;
+    color: #90A0B7;
+}

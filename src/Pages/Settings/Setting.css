@@ -1,0 +1,864 @@
+.SettingChildrenDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    padding-bottom: 40px;
+    gap: 4px;
+    border-radius: 14px 14px 10px 14px;
+    background: #ffffff;
+}
+
+.SettingForms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.SettingFormInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 370px;
+}
+
+.SettingFormInfoSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 370px;
+    margin-bottom: 2px;
+}
+
+.SettingForm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SettingChildrenDivTitle {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.SettingFormUpload {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ant-upload-wrapper {
+    width: 100%;
+    border: 1px #C2CFE0;
+    background: transparent;
+}
+
+.SettingFormInfoTitle {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #334D6E;
+
+}
+
+.SettingFormUpload span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #90A0B7;
+}
+
+.SettingFormUpload p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #005EEB;
+}
+
+.SettingForm input {
+    width: 100%;
+    padding: 16px 20px 16px 20px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    outline: none;
+}
+
+.SettingForm input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.SettingFormAvatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SettingFormAvatar h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 32px;
+    background: #005EEB;
+    border: 4px solid #005EEB;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.SettingForm select {
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+
+.ant-select-selector {
+    height: 47px !important;
+    background: transparent !important;
+    border: 1px solid #C2CFE0 !important;
+}
+
+.ant-select .ant-select-outlined {
+    width: 100% !important;
+}
+
+.SettingChildrenDivBeetwen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.SettingChildrenDivRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    height: 100vh;
+    margin-top: 40px;
+    gap: 40px;
+    border-left: 1px solid #EBEFF5;
+    padding-left: 40px;
+}
+
+.SettingChildrenDivRightTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SettingChildrenDivRightTitle p {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #334D6E;
+}
+
+.SettingFormRadios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.SettingFormRadios input {
+    outline: none;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #c2cfe0c2;
+}
+
+.SettingUnitRadio1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.SettingUnitRadio2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.SettingFormRadios span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.SettingFormList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.SettingFormList input {
+    outline: none;
+    width: 130px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #c2cfe0c2;
+}
+
+.SettingFormList button {
+    width: 104px;
+    padding: 10px 21px 10px 21px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid #005EEB;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #005EEB;
+}
+
+.SettingFormTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.SettingFormTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.SettingFormTodo:hover {
+    background-color: #005eeb3f;
+    transition: all 0.5s ease;
+}
+
+.SettingFormTodo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #334D6E;
+}
+
+.SettingFormTodoActions {
+    display: none;
+
+}
+
+.SettingFormTodo:hover .SettingFormTodoActions {
+    display: flex;
+    gap: 10px;
+}
+
+.SettingPaymentInputs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.SettingPaymentButtons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.SettingPaymentButtons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    background: #005eeb;
+    box-shadow: 0px 0px 6px 0px #0000001a;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.SettingFormCheks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.SettingFormCheks span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.settingChildrenChekBeetwenn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 220px;
+}
+
+.SettingCheckRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid #90A0B7;
+    height: 100%;
+    width: 100%;
+    padding-left: 220px;
+}
+
+.SettingCheck {
+    width: 241px;
+    height: 516.5px;
+    position: relative;
+
+}
+
+.SettingCheck img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.settingChekInfos {
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    padding: 4px;
+}
+
+.settingChekInfos .settingChekInfosParagraph:nth-child(5) {
+    border: none;
+}
+
+.settingChekInfosHeader h1:nth-child(3) {
+    padding-bottom: 10px;
+}
+
+.settingChekInfos h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #192A3E;
+    padding: 0;
+    margin: 0;
+}
+
+.settingChekInfos p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.settingChekInfosHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+}
+
+.settingChekInfosParagraph {
+    padding-bottom: 15px;
+    border-bottom: 2px dashed black;
+
+}
+
+.SettingChecksDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.SettingChecksDivHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SettingChecksDivHeader p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.SettingChecksDivHeader span {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #192A3E;
+}
+
+.SettingChecks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.SettingChildrenDivHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SettingChildrenDivHeaderSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.SettingChildrenDivHeaderSearch span {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #334D6E;
+}
+
+.SettingChildrenDivHeaderSearchInupt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #C2CFE0;
+}
+
+.SettingChildrenDivHeaderSearchInupt input {
+    outline: none;
+    border: none;
+    width: 100%;
+
+}
+
+.SettingMembers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.SettingMember {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #EBEFF5;
+}
+
+.SettingMemberInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.SettingMemberName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.SettingMemberBrach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.SettingMemberName p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #707683;
+
+}
+
+.SettingMemberBrach input {
+    width: 180px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid #C2CFE0;
+    outline: none;
+}
+
+.membersSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-select-selector {
+    width: 100%;
+    height: 40px !important;
+}
+
+.SettingMemberButtonEditAccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 128px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid #005EEB;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    color: #005EEB;
+    background-color: white;
+
+}
+
+.SettingMemberButtonAddAccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 185px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    background: #005EEB;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.modal-header-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.modal-header-titles span {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+
+.modal-header-titles p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #90A0B7;
+}
+
+.SettingModalFroms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.SettingModalFrom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 212px !important;
+}
+
+.SettingModalFromInput {
+    width: 212px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #C2CFE0;
+}
+
+.SettingModalFrom p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+
+.ant-modal-body {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.ant-modal-content {
+    width: 580px;
+    padding: 30px 40px !important;
+}
+
+.modal-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #90A0B7;
+}
+
+.setting-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-section-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.modal-radios {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.ant-radio-wrapper span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.ant-checkbox-wrapper span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #707683;
+}
+
+.setting-modal-checkbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.setting-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.delete-button {
+    font-family: "Poppins", sans-serif;
+    width: 128px;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F7685B;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cancel-button {
+    font-family: "Poppins", sans-serif;
+    width: 128px;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #90A0B7;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #90A0B7;
+}
+
+.save-button {
+    font-family: "Poppins", sans-serif;
+    width: 128px;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #005EEB;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.setting-modal-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.setting-modal-section-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.5px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+
+.setting-modal-buttons {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrAAAA {
+    padding: 3px 3px;
+}
+
+.mrAAAA:hover {
+    padding: 3px 3px;
+    background: rgba(51, 169, 255, 1);
+    color: white;
+    border-radius: 8px;
+}
+
+.mrAAAA span {
+    display: none;
+}
+
+.mrAAAA:hover span {
+    display: flex;
+}

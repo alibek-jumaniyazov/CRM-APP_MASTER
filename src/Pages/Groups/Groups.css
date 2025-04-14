@@ -1,0 +1,1291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.Group {
+  font-family: "Poppins", sans-serif;
+}
+
+.ButtonsHronical button {
+  width: 110px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #90a0b7;
+  background: none;
+  padding-bottom: 10px;
+  color: #90a0b7;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.ButtonsHronical button:focus,
+.ButtonsHronical button:hover {
+  color: #005eeb;
+  border-bottom: 1px solid #005eeb;
+}
+
+.Nomber {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.Nomber p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18.9px;
+  letter-spacing: 1%;
+  font-family: Regular;
+  display: flex;
+  justify-content: center;
+  color: #707683;
+  font-weight: 400;
+}
+
+.NomberClient {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.NomberClient p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  color: #707683;
+}
+
+.Students {
+  width: 100px;
+  height: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.Students p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Id {
+  width: 50px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.Id p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #707683;
+  line-height: 18.9px;
+  letter-spacing: 1%;
+  font-family: Regular;
+}
+
+.Name p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Points {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.Points p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Course {
+  width: 165px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.Course p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Teacher {
+  width: 75px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  transition: all 0.1s ease;
+
+}
+
+.Teacher p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+  transition: all 0.1s ease;
+
+}
+
+.TeacherTableLink {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.1s ease;
+  border-radius: 6px;
+}
+
+.TeacherTableLinkTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: "#707683";
+  border-radius: 6px;
+  width: auto !important;
+  transition: all 0.1s ease;
+
+}
+
+.TeacherTableLink span {
+  /* display: none; */
+  transition: all 0.1s ease;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeacherTableLink:hover .TeacherTableLinkTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 6px;
+  transition: all 0.1s ease;
+  background-color: #33A9FF;
+  width: auto;
+}
+
+.TeacherTableLink:hover .TeacherTableLinkTitle {
+  color: white;
+  transition: all 0.1s ease;
+}
+
+.TeacherTableLink:hover .TeacherTableLinkTitle span {
+  /* display: flex; */
+  opacity: 1;
+  color: white;
+  transition: all 0.1s ease;
+
+}
+
+.Days {
+  width: 100px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.Days p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Dates {
+  width: 130px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.Dates p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.Room {
+  width: 120px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Room p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #707683;
+}
+
+.GroupTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  height: 650px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  gap: 16px;
+}
+
+.GroupTable::-webkit-scrollbar {
+  width: 15px;
+  padding: 1px;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.GroupTable::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 38px;
+  border: 1px solid #e4eaf1;
+  background-color: #f6faff;
+}
+
+.GroupTable::-webkit-scrollbar-thumb {
+  background-color: #b0c2da;
+  border-radius: 38px;
+  border: 4px solid #f6faff;
+}
+
+.Previus {
+  width: 140px;
+  height: 32px;
+  border: 1px solid #707683;
+  color: #707683;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.Next {
+  width: 140px;
+  height: 32px;
+  border: 1px solid #707683;
+  color: #707683;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.Selected_button {
+  width: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.Bottom_Button {
+  width: auto;
+}
+
+.number_button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707683;
+  border: 1px solid #707683;
+  border-radius: 8px;
+  background: none;
+}
+
+.FiltersContent {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.FiltersContent .TYU {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: 1px solid #c2cfe0;
+  outline: none;
+  background: #ffffff;
+  color: #90a0b7;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.FiltersContent .TYU:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.FiltersContent .TYU span {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#reset {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #005eeb;
+  color: #005eeb;
+  font-size: 16px;
+}
+
+#reset:hover {
+  background: #005eeb;
+  color: white;
+}
+
+.ModalText {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 5px;
+}
+
+.ModalText h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: #334d6e;
+}
+
+.ModalText p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #90a0b7;
+  line-height: 18.9px;
+}
+
+.ModalButton {
+  margin-top: 22px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.AddNewStudent {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dfe0e4;
+  border-radius: 6px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.AddNewStudent:hover {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #005eeb;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.IconNewStud {
+  font-size: 20px;
+  color: #33a9ff;
+}
+
+.AddNewStudText {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddNewStudText h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  font: General Sans;
+  font-family: "Poppins", sans-serif;
+}
+
+.AddNewStudText p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #192a3e;
+  line-height: 13.5px;
+  font: General Sans;
+  font-family: "Poppins", sans-serif;
+}
+
+.AddNewCustomer {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dfe0e4;
+  border-radius: 6px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.AddNewCustomer:hover {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #005eeb;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.IconNewCust {
+  font-size: 20px;
+  color: #33a9ff;
+}
+
+.AddNewCustText {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddNewCustText h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  font: General Sans;
+  font-family: "Poppins", sans-serif;
+}
+
+.AddNewCustText p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #192a3e;
+  line-height: 13.5px;
+  font: General Sans;
+  font-family: "Poppins", sans-serif;
+}
+
+.closeNewStud {
+  border: none;
+  background: none;
+  color: #c2cfe0;
+  font-size: 24px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.DatePicker {
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.DatePicker:hover {
+  color: #192A3E;
+  ;
+  border: 1px solid #000000;
+}
+
+.ModalCreateNewStud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.CreateNewsTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.CreateNewsTitle p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #90a0b7;
+  line-height: 18.9px;
+}
+
+.CreateNewsTitle h2 {
+  padding: 0;
+  margin: 0;
+  color: #334d6e;
+  font-size: 25px;
+  line-height: 33.75px;
+}
+
+.CreateNewsContant {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.CreateNewsContant label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.CreateNewsContant label p {
+  font-size: 10px;
+  line-height: 13.5px;
+  font-weight: 500;
+  color: #334d6e;
+}
+
+.CreateNewsContant label input {
+  width: 171px;
+  border: 1px solid #c2cfe0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px 20px;
+  background: #ffffff;
+  color: #707683;
+  font-size: 12px;
+  outline: none;
+  line-height: 16.2px;
+  font-weight: 400;
+  cursor: text;
+  transition: 0.3s ease all;
+}
+
+.CreateNewsContant label input:hover {
+  color: #192A3E;
+  ;
+  border: 1px solid #000000;
+}
+
+.CheckboxNewStud {
+  margin-top: 27px;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+}
+
+.CheckboxNewStud_title p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13.5px;
+  color: #334d6e;
+}
+
+.CheckBox_BOX {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.CheckBox_BOX label {
+  display: flex;
+  width: 198.71px;
+  height: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 1%;
+  color: #707683;
+  gap: 10px;
+}
+
+.CheckBox_BOX input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  margin-right: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: border-color 0.3s;
+}
+
+.CheckBox_BOX label input[type="checkbox"]:checked {
+  border-color: #005eeb;
+  /* Change to the desired border color when checked */
+}
+
+.CheckBox_BOX label input[type="checkbox"]:checked::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #005eeb;
+  /* Change to the desired inner circle color when checked */
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.CreateNewStudButtons {
+  margin-top: 24px;
+  width: 520px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 13px;
+}
+
+.GoBackStud {
+  width: 128px;
+  border: 1px solid #90a0b7;
+  background: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  color: #90a0b7;
+  line-height: 16.2px;
+  letter-spacing: 1%;
+  cursor: pointer;
+}
+
+.NextStud {
+  width: 128px;
+  border: 1px solid #005eeb;
+  background: #005eeb;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  color: #ffffff;
+  line-height: 16.2px;
+  letter-spacing: 1%;
+  cursor: pointer;
+}
+
+.IndividualCourseContent_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.IndividualCourseContent_Title h2 {
+  font-size: 25px;
+  color: #334d6e;
+  font-weight: 700;
+  line-height: 33.75px;
+  margin: 0;
+  padding: 0;
+}
+
+.IndividualCourseContent_Title p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #90a0b7;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+
+.IndividualCourseContent_Podtitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+
+.IndividualCourseContent_Podtitle p {
+  font-size: 14px;
+  color: #192a3e;
+  line-height: 18.9px;
+  font-weight: 500;
+}
+
+.Selec_General_Box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IndividualCourseContent_SelectBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 30px;
+}
+
+.Select {
+  width: 213px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Select p {
+  font-size: 10px;
+  color: #334d6e;
+  line-height: 13.5px;
+  font-weight: 500;
+}
+
+.Select select {
+  border: 1px solid #c2cfe0;
+  border-radius: 10px;
+  padding: 12.5px 20px 12.5px 20px;
+  width: 100%;
+  outline: none;
+}
+
+.Select_input p {
+  font-size: 10px;
+  color: #334d6e;
+  line-height: 13.5px;
+  font-weight: 500;
+}
+
+.linktoStudpage {
+  display: none;
+}
+
+.GlavTable:hover .linktoStudpage {
+  display: flex;
+  color: #192A3E;
+  ;
+}
+
+.GlavTable {
+  color: "#707683";
+}
+
+.GlavTable.active {
+  background-color: #e4f4fd;
+  color: #005eeb !important;
+}
+
+.GlavTable.active .linktoStudpage {
+  display: block;
+}
+
+.GlavTable.active span p {
+  color: #005eeb;
+}
+
+.GlavTable.active span {
+  color: #005eeb;
+}
+
+.GroupTable .GlavTable:hover {
+  background-color: #e4f4fd;
+}
+
+.GlavTable:hover #numberP {
+  color: #192A3E;
+
+}
+
+.GlavTable:hover .Name p {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #192A3E;
+}
+
+.selectMenuInfos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.selectMenuInfos div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.selectMenuInfos div label {
+  font-size: 12px;
+  color: #334d6e;
+}
+
+.selectMenuInfos div p {
+  font-size: 12px;
+  color: #707683;
+}
+
+
+.newLeaadCard_studentMenu1_chil_form1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div {
+  width: 213px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div input {
+  width: 200px !important;
+  height: 45px !important;
+  border-radius: 10px;
+  border: 1px solid #c2cfe0;
+  padding-left: 10px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div input:focus {
+  border: 2px solid #005eeb;
+  outline: #005eeb;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div input {
+  width: 200px !important;
+  height: 45px !important;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div select {
+  width: 100% !important;
+  height: 49px;
+  border-radius: 10px;
+  border: 1px solid #c2cfe0;
+  padding-left: 10px;
+  color: #707683;
+  background-color: inherit;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div label {
+  font-size: 10px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1 div input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select .newLeaadCard_studentMenu1_chil_form1_select_inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select .newLeaadCard_studentMenu1_chil_form1_select_inputs div {
+  min-width: 213px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select .newLeaadCard_studentMenu1_chil_form1_select_inputs div label {
+  font-size: 12px;
+  color: #707683;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select .newLeaadCard_studentMenu1_chil_form1_select_check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: -10px;
+}
+
+.newLeaadCard_studentMenu1_chil_form1_select .newLeaadCard_studentMenu1_chil_form1_select_check input[type="checkbox"] {
+  width: 15px;
+}
+
+.addCardInfo2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-inline: 25px;
+  gap: 20px;
+  border-top: 1px dashed #707683;
+}
+
+.addCardInfo21 {
+  display: flex;
+  flex-direction: column;
+}
+
+.addCardInfo21_chil label {
+  font-size: 12px;
+  color: #192A3E;
+  ;
+}
+
+.addCardInfo21_chil span {
+  font-size: 12px;
+  color: #707683;
+}
+
+.newLeaadCard_studentMenu_Menu_btn1.active {
+  background-color: #005eeb;
+}
+
+.newLeaadCard_studentMenu_Menu_btn1 h2 {
+  color: #33a9ff;
+}
+
+.newLeaadCard_studentMenu_Menu_btn1.active h2 {
+  color: white;
+}
+
+.newLeaadCard_studentMenu_Menu_btn1.active p {
+  color: white;
+}
+
+.newLeaadCard_studentMenu_Menu_btn1.active span {
+  color: white;
+}
+
+.newLeaadCard_studentMenu_Menu_footerBtn.btn_groups {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.archive {
+  position: absolute;
+  bottom: -37px;
+  right: 0;
+  height: 32px;
+  padding-inline: 20px;
+  background: white;
+  width: 150px;
+  box-shadow: 0px 0px 7.4px 0px #00000066;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #F7685B;
+  justify-content: flex-start;
+  font-size: 12px;
+  gap: 5px;
+}
+
+.GroupsButtons {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 10px 0px;
+}
+
+#ActiveGr {
+  width: 119px !important;
+  height: 36px !important;
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+}
+
+#IndividualsGr {
+  width: 101px !important;
+  height: 36px !important;
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+}
+
+#ArchiveGr {
+  width: 100px !important;
+  height: 36px !important;
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+}
+
+.TablePaginatorInput p {
+  cursor: pointer !important;
+}
+
+.GroupProfilHeader {
+  padding: 20px 0px;
+}
+
+.GroupProfilMainHeaderCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.GroupProfilMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 30px;
+}
+
+.GroupProfilMainHeaderCard {
+  width: 268px;
+  height: 80px;
+  padding: 12px;
+  gap: 4px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.GroupProfilMainHeaderCard p {
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #192A3E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.GroupProfilMainHeaderCard p span {
+  color: #192A3E;
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+}
+
+.GroupProfilMainHeaderCardActive {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 19px;
+  padding: 6px;
+  gap: 10px;
+  border-radius: 4px;
+  background: #2ED47A;
+}
+
+.GroupProfilMainHeaderCardActive p {
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.GroupProfilTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.GroupProfileTableList {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.Discount {
+  width: 106px;
+  height: 20px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: #C2CFE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-10px);
+}
+
+.Discount p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  font-family: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.GroupProfilSms {
+  width: 100%;
+}
+
+.GroupProfilShueld {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SettingFormGroup input:hover {
+  border: none !important;
+}
+
+.SettingFormGroup input {
+  border: none !important;
+  outline: none !important;
+}
+
+.SettingFormGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  gap: 8px !important;
+}
+
+.LoadingMainDiv {
+  height: 50px;
+}
+
+.DaysDropBut {
+  width: 100px !important;
+  height: 32px !important;
+}
+
+.XuyKontainer {
+  position: absolute !important;
+  right: 0 !important;
+}
+
+.ant-picker-input input:hover {
+  border: none !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}

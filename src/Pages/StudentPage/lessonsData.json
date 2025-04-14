@@ -1,0 +1,153 @@
+{
+    "lessonsData": [
+        {
+            "id": 1,
+            "teacher": "Mr.Aleksey",
+            "lessonCount": 20,
+            "average": 7,
+            "totalPoints": 3200,
+            "lessons": [
+                {
+                    "num": 1,
+                    "title": "Lesson 01 - English alphabet",
+                    "date": "02.04.2024",
+                    "status": "Was",
+                    "points": 160
+                },
+                {
+                    "num": 2,
+                    "title": "Lesson 02 - Basic grammar",
+                    "date": "03.04.2024",
+                    "status": "Was",
+                    "points": 150
+                },
+                {
+                    "num": 3,
+                    "title": "Lesson 03 - Vocabulary building",
+                    "date": "04.04.2024",
+                    "status": "Repass",
+                    "points": 170
+                },
+                {
+                    "num": 4,
+                    "title": "Lesson 04 - Pronunciation practice",
+                    "date": "05.04.2024",
+                    "status": "Not",
+                    "points": 180
+                },
+                {
+                    "num": 5,
+                    "title": "Lesson 05 - Listening comprehension",
+                    "date": "06.04.2024",
+                    "status": "Was",
+                    "points": 190
+                },
+                {
+                    "num": 6,
+                    "title": "Lesson 06 - Writing practice",
+                    "date": "07.04.2024",
+                    "status": "Was",
+                    "points": 200
+                },
+                {
+                    "num": 7,
+                    "title": "Lesson 07 - Reading comprehension",
+                    "date": "08.04.2024",
+                    "status": "Was",
+                    "points": 210
+                },
+                {
+                    "num": 8,
+                    "title": "Lesson 08 - Speaking practice",
+                    "date": "09.04.2024",
+                    "status": "Was",
+                    "points": 220
+                },
+                {
+                    "num": 9,
+                    "title": "Lesson 09 - Advanced grammar",
+                    "date": "10.04.2024",
+                    "status": "Was",
+                    "points": 230
+                },
+                {
+                    "num": 10,
+                    "title": "Lesson 10 - Idioms and expressions",
+                    "date": "11.04.2024",
+                    "status": "Was",
+                    "points": 240
+                },
+                {
+                    "num": 11,
+                    "title": "Lesson 11 - Conversational English",
+                    "date": "12.04.2024",
+                    "status": "Was",
+                    "points": 250
+                },
+                {
+                    "num": 12,
+                    "title": "Lesson 12 - Essay writing",
+                    "date": "13.04.2024",
+                    "status": "Was",
+                    "points": 260
+                },
+                {
+                    "num": 13,
+                    "title": "Lesson 13 - Business English",
+                    "date": "14.04.2024",
+                    "status": "Was",
+                    "points": 270
+                },
+                {
+                    "num": 14,
+                    "title": "Lesson 14 - Interview preparation",
+                    "date": "15.04.2024",
+                    "status": "Was",
+                    "points": 280
+                },
+                {
+                    "num": 15,
+                    "title": "Lesson 15 - Presentation skills",
+                    "date": "16.04.2024",
+                    "status": "Was",
+                    "points": 290
+                },
+                {
+                    "num": 16,
+                    "title": "Lesson 16 - TOEFL preparation",
+                    "date": "17.04.2024",
+                    "status": "Was",
+                    "points": 300
+                },
+                {
+                    "num": 17,
+                    "title": "Lesson 17 - IELTS preparation",
+                    "date": "18.04.2024",
+                    "status": "Was",
+                    "points": 310
+                },
+                {
+                    "num": 18,
+                    "title": "Lesson 18 - Debate practice",
+                    "date": "19.04.2024",
+                    "status": "Was",
+                    "points": 320
+                },
+                {
+                    "num": 19,
+                    "title": "Lesson 19 - Creative writing",
+                    "date": "20.04.2024",
+                    "status": "Was",
+                    "points": 330
+                },
+                {
+                    "num": 20,
+                    "title": "Lesson 20 - Review and practice",
+                    "date": "21.04.2024",
+                    "status": "Was",
+                    "points": 340
+                }
+            ]
+        }
+    ]
+}
